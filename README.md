@@ -3,9 +3,6 @@
 
 This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Demand](https://www.audiense.com/) account. It provides tools to create and analyze demand reports, track entity performance, and gain insights across different channels and countries.
 
-<a href="https://glama.ai/mcp/servers/xz11vmv38c">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/xz11vmv38c/badge" /></a>
-
 ---
 
 ## 🚀 Prerequisites
