@@ -1,7 +1,18 @@
 # 🏆 Audiense Demand MCP Server
 [![smithery badge](https://smithery.ai/badge/@AudienseCo/mcp-audiense-demand)](https://smithery.ai/server/@AudienseCo/mcp-audiense-demand)
 
-This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Demand](https://www.audiense.com/) account. It provides tools to create and analyze demand reports, track entity performance, and gain insights across different channels and countries.
+This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Demand](https://www.audiense.com/products/demand-intelligence) account. It provides tools to create and analyze demand reports, track entity performance, and gain insights across different channels and countries.
+
+
+This MCP server is designed to work with the Audiense Demand API and requires valid authentication credentials. Please note:
+
+## ⚠️ Disclaimer
+
+- This is a Work In Progress project, so the configuration might vary in the short term, as well as the project's own existence.
+- This server is intended for use with official Audiense Demand accounts only
+- The Auth0 Client ID must be from the Demand App Frontend (other client IDs are not authorized)
+- Access and refresh tokens contain sensitive information and should be kept secure
+- API usage is subject to Audiense's terms of service and rate limits
 
 ---
 
@@ -15,14 +26,6 @@ Before using this server, ensure you have:
 - **Auth0 Access and Refresh Tokens**
 
 ---
-
-## Installing via Smithery
-
-To install Audiense Demand Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@AudienseCo/mcp-audiense-demand):
-
-```bash
-npx -y @smithery/cli@latest install @AudienseCo/mcp-audiense-demand --client claude
-```
 
 ## ⚙️ Configuring Claude Desktop
 
@@ -41,7 +44,7 @@ npx -y @smithery/cli@latest install @AudienseCo/mcp-audiense-demand --client cla
 
    ```json
    "mcpServers": {
-     "demand-public-api": {
+     "audiense-demand": {
        "command": "/opt/homebrew/bin/node",
        "args": [
          "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
@@ -178,7 +181,7 @@ tail -f ~/Library/Logs/Claude/mcp*.log
 
 ### Authentication Issues
 - Double-check OAuth credentials.
-- Ensure the refresh token is still valid.
+- Ensure the access and refresh token is still valid.
 - Verify that the required API scopes are enabled.
 
 ## 📜 Viewing Logs
@@ -206,29 +209,23 @@ This project is licensed under the Apache 2.0 License. See the LICENSE file for 
 
 ## 🔐 Authentication
 
-The server supports two authentication methods:
+The server supports this authentication method:
 
-1. **Simple Token Authentication**
-   ```json
-   "env": {
-     "API_TOKEN": "your.jwt.token"
-   }
-   ```
-   The server will automatically parse the token's expiration and handle it appropriately.
 
-2. **Auto-refresh Authentication**
-   ```json
-   "env": {
-     "AUTH0_DOMAIN": "auth.audiense.com",
-     "AUTH0_CLIENT_ID": "your-client-id",
-     "API_TOKEN": "your.initial.token"
-   }
-   ```
-   This method will:
-   - Use the initial token from API_TOKEN
-   - Automatically parse token expiration
-   - Attempt to refresh tokens before they expire
-   - Fall back to environment token if refresh fails
+**Auto-refresh Authentication**
+  ```json
+  "env": {
+    "AUTH0_DOMAIN": "auth.audiense.com",
+    "AUTH0_CLIENT_ID": "your-client-id",
+    "INITIAL_ACCESS_TOKEN": "your.initial.token",
+    "INITIAL_REFRESH_TOKEN": "your.initial.refresh.token"
+  }
+  ```
+  This method will:
+  - Use the initial token from API_TOKEN
+  - Automatically parse token expiration
+  - Attempt to refresh tokens before they expire
+  - Fall back to environment token if refresh fails
 
 The server will:
 1. Use cached token if valid
