@@ -22,7 +22,7 @@ Before using this server, ensure you have:
 
 - **Node.js** (v18 or higher)
 - **Claude Desktop App**
-- **Audiense Demand Account** with API credentials
+- **Audiense Demand Account** authorized to use the Demand product.
 - **Auth0 Access and Refresh Tokens**
 
 ---
