@@ -2,6 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import fetch, { RequestInit } from 'node-fetch';
+import AdmZip from 'adm-zip';
 
 const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN;
 const AUTH0_CLIENT_ID = process.env.AUTH0_CLIENT_ID;
@@ -112,6 +113,52 @@ async function makeAuthenticatedRequest(endpoint: string, options: RequestInit =
     }
 }
 
+// Function to download and extract report files
+async function downloadAndExtractReportFiles(
+    reportId: string,
+    entitiesFilesUrl: string,
+    demandScoreFilesUrl: string
+): Promise<{
+    entitiesFiles: { path: string; files: string[] };
+    demandScoreFiles: { path: string; files: string[] };
+}> {
+    // Download files
+    const entitiesFile = await fetch(entitiesFilesUrl, { method: 'GET' });
+    const demandScoreFile = await fetch(demandScoreFilesUrl, { method: 'GET' });
+
+    // Create temp directory
+    const fs = await import('fs/promises');
+    const path = await import('path');
+    const os = await import('os');
+    const tempDir = path.join(os.tmpdir(), 'mcp-audiense-demand');
+    await fs.mkdir(tempDir, { recursive: true });
+
+    // Extract files
+    const reportTempDir = path.join(tempDir, reportId);
+    await fs.mkdir(reportTempDir, { recursive: true });
+
+    const entitiesFilesZip = new AdmZip(Buffer.from(await entitiesFile.arrayBuffer()));
+    const demandScoreFilesZip = new AdmZip(Buffer.from(await demandScoreFile.arrayBuffer()));
+
+    entitiesFilesZip.extractAllTo(reportTempDir, true);
+    demandScoreFilesZip.extractAllTo(reportTempDir, true);
+
+    // Get file lists
+    const entitiesFilesList = entitiesFilesZip.getEntries().map(entry => entry.entryName);
+    const demandScoreFilesList = demandScoreFilesZip.getEntries().map(entry => entry.entryName);
+
+    return {
+        entitiesFiles: {
+            path: reportTempDir,
+            files: entitiesFilesList
+        },
+        demandScoreFiles: {
+            path: reportTempDir,
+            files: demandScoreFilesList
+        }
+    };
+}
+
 /**
  * MCP Tool: Create a demand report
  */
@@ -215,12 +262,63 @@ server.tool(
                 method: 'GET'
             });
 
+            const reportData = data as {
+                id: string;
+                title: string;
+                userId: string;
+                entityNames: string[];
+                createdAt: string;
+                updatedAt: string;
+                entitiesFilesUrl: string;
+                demandScoreFilesUrl: string;
+                status: string;
+            };
+
+            // Download files
+            const { entitiesFiles, demandScoreFiles } = await downloadAndExtractReportFiles(
+                reportId,
+                reportData.entitiesFilesUrl,
+                reportData.demandScoreFilesUrl
+            );
+
             return {
                 content: [
                     {
-                        type: "text",
+                        type: "text" as const,
+                        text: "Report Information:"
+                    },
+                    {
+                        type: "text" as const,
                         text: JSON.stringify(data, null, 2)
                     },
+                    {
+                        type: "text" as const,
+                        text: "\nFiles have been downloaded to:"
+                    },
+                    {
+                        type: "text" as const,
+                        text: `\nEntities Files Directory: ${entitiesFiles.path}`
+                    },
+                    {
+                        type: "text" as const,
+                        text: "Files:"
+                    },
+                    ...entitiesFiles.files.map(file => ({
+                        type: "text" as const,
+                        text: `- ${file}`
+                    })),
+                    {
+                        type: "text" as const,
+                        text: `\nDemand Score Files Directory: ${demandScoreFiles.path}`
+                    },
+                    {
+                        type: "text" as const,
+                        text: "Files:"
+                    },
+                    ...demandScoreFiles.files.map(file => ({
+                        type: "text" as const,
+                        text: `- ${file}`
+                    }))
                 ],
             };
         } catch (error: unknown) {
