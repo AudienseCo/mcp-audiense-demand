@@ -1,16 +1,17 @@
 {
-  "name": "mcp-audiense-insights",
-  "version": "0.2.0",
+  "name": "mcp-audiense-demand",
+  "version": "1.0.0",
   "type": "module",
   "bin": {
-    "audiense-insights": "./build/index.js"
+    "audiense-demand": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "build": "tsc && cp -r src/mock-data build/ && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "test": "jest"
   },
   "files": [
-    "build"
+    "build",
+    "build/mock-data"
   ],
   "keywords": [],
   "author": "",

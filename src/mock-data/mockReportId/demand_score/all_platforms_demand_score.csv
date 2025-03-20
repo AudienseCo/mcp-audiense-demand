@@ -1,0 +1,64 @@
+id,name,reference,term,platform,segment,variable,value,absolute,weight,timestamp
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,Global,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,US,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,GB,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,AU,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,CA,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,DE,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,FR,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,IN,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,JP,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,IT,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,ES,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,MX,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,BR,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,NL,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,AR,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,SE,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,DK,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,NO,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,PL,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,TR,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,,All_Platforms,Weighted-Total,Demand,Last 12 months - Percentile,0,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,Global,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,US,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,GB,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,AU,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,CA,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,DE,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,FR,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,IN,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,JP,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,IT,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,ES,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,MX,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,BR,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,NL,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,AR,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,SE,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,DK,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,NO,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,PL,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,TR,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+701b04d1-d2a2-435c-a59c-13ac1f0e43be,Robocop,robocop,,All_Platforms,Weighted-Total,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,Global,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,US,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,GB,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,AU,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,CA,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,DE,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,FR,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,IN,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,JP,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,IT,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,ES,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,MX,Demand,Last 12 months - Percentile,33.3333,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,BR,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,NL,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,AR,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,SE,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,DK,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,NO,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,PL,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,TR,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,,All_Platforms,Weighted-Total,Demand,Last 12 months - Percentile,100,,2025-03-12 08:53:57

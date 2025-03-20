@@ -1,0 +1,885 @@
+id,name,reference,term,platform,segment,variable,value,absolute,weight,timestamp
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers,Number,569265,0.8130998104602516,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers,Number,231311,0.3303890635422365,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers,Number,337953,0.4827093185853222,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers Age,13-17,12330,0.021659508313351426,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers Age,18-24,82985,0.14577569321844835,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers Age,25-34,274473,0.48215330294326897,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers Age,35-44,162496,0.28544878044495975,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers Age,45-64,36925,0.0648643426172345,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Followers Age,65-,52,0.00009134585825582111,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers Age,13-17,3327,0.005844378277252246,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers Age,18-24,27356,0.04805494804704312,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers Age,25-34,88722,0.15585360069563384,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers Age,35-44,89514,0.15724486838291482,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers Age,45-64,22339,0.03924182937647668,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Male Followers Age,65-,52,0.00009134585825582111,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers Age,13-17,9003,0.01581513003609918,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers Age,18-24,55629,0.09772074517140523,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers Age,25-34,185751,0.3262997022476351,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers Age,35-44,72982,0.12820391206204493,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers Age,45-64,14586,0.02562251324075782,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,US,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers,Number,67623,0.22242066624565834,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers,Number,44575,0.1466128565414167,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers,Number,23047,0.07580452057678139,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers Age,13-17,2701,0.03994203155731038,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers Age,18-24,20483,0.30289990092128416,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers Age,25-34,30105,0.4451887671354421,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers Age,35-44,11678,0.17269272289014093,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers Age,45-64,2654,0.039247001759756296,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers Age,13-17,1381,0.020422045753663694,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers Age,18-24,11551,0.17081466364994158,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers Age,25-34,19924,0.2946334826908005,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers Age,35-44,9534,0.14098753382724813,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers Age,45-64,2183,0.03228191591618237,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers Age,13-17,1319,0.019505197935613623,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers Age,18-24,8931,0.13207044940330953,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers Age,25-34,10180,0.15054049657660856,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers Age,35-44,2144,0.031705189062892804,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers Age,45-64,471,0.006965085843573932,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,US,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers,Number,9543,0.013630578888957131,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers,Number,5275,0.007534454955386028,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers,Number,4267,0.006094695600878139,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers Age,13-17,425,0.044535261448181915,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers Age,18-24,3487,0.3653987215760243,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers Age,25-34,4057,0.4251283663418212,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers Age,35-44,1463,0.1533060882322121,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers Age,45-64,109,0.011421984700827831,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers Age,13-17,164,0.017185371476474903,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers Age,18-24,1978,0.20727234622236193,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers Age,25-34,1923,0.20150895944671487,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers Age,35-44,1098,0.1150581578120088,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers Age,45-64,109,0.011421984700827831,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers Age,13-17,260,0.0272451011212407,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers Age,18-24,1509,0.15812637535366236,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers Age,25-34,2133,0.22351461804464004,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers Age,35-44,364,0.03814314156973698,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,GB,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers,Number,22292,0.07332122934427955,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers,Number,13888,0.04567940216819282,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers,Number,8403,0.02763853804862646,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers Age,13-17,547,0.024537950834380047,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers Age,18-24,7134,0.3200251211196842,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers Age,25-34,9566,0.429122555176745,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers Age,35-44,3938,0.17665530235061905,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers Age,45-64,1105,0.04956935223398529,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers Age,13-17,300,0.013457742687959805,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers Age,18-24,3847,0.17257312040193792,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers Age,25-34,5784,0.25946527902386507,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers Age,35-44,2974,0.13341108917997488,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers Age,45-64,982,0.044051677731921764,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers Age,13-17,247,0.01108020814642024,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers Age,18-24,3287,0.14745200071774628,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers Age,25-34,3781,0.16961241701058677,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers Age,35-44,963,0.04319935402835098,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers Age,45-64,123,0.00551767450206352,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,GB,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers,Number,2432,0.003473705109288876,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers,Number,1216,0.001736852554644438,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers,Number,1216,0.001736852554644438,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers Age,13-17,84,0.03453947368421053,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers Age,18-24,589,0.2421875,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers Age,25-34,1207,0.49629934210526316,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers Age,35-44,460,0.18914473684210525,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers Age,45-64,90,0.03700657894736842,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers Age,13-17,45,0.01850328947368421,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers Age,18-24,315,0.12952302631578946,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers Age,25-34,540,0.22203947368421054,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers Age,35-44,225,0.09251644736842106,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers Age,45-64,90,0.03700657894736842,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers Age,13-17,39,0.016036184210526317,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers Age,18-24,274,0.11266447368421052,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers Age,25-34,666,0.2738486842105263,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers Age,35-44,235,0.09662828947368421,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AU,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers,Number,5350,0.01759683191243027,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers,Number,3201,0.010528497000315756,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers,Number,2148,0.007065045784654247,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers Age,13-17,253,0.04728971962616822,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers Age,18-24,1732,0.32373831775700934,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers Age,25-34,2554,0.47738317757009346,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers Age,35-44,549,0.10261682242990654,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers Age,45-64,259,0.048411214953271026,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers Age,13-17,60,0.011214953271028037,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers Age,18-24,815,0.15233644859813084,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers Age,25-34,1661,0.31046728971962617,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers Age,35-44,453,0.08467289719626168,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers Age,45-64,211,0.0394392523364486,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers Age,13-17,193,0.03607476635514019,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers Age,18-24,917,0.1714018691588785,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers Age,25-34,893,0.1669158878504673,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers Age,35-44,96,0.01794392523364486,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers Age,45-64,48,0.00897196261682243,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AU,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers,Number,6046,0.008635699461661407,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers,Number,2632,0.003759371647881711,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers,Number,3413,0.004874899481086732,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers Age,13-17,330,0.05458154151505128,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers Age,18-24,1715,0.28365861726761493,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers Age,25-34,2869,0.47452861395964274,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers Age,35-44,974,0.1610982467747271,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers Age,45-64,155,0.02563678465100893,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers Age,13-17,175,0.028944756864042343,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers Age,18-24,526,0.0869996692027787,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers Age,25-34,1111,0.18375785643400597,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers Age,35-44,819,0.13546146212371815,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers Age,13-17,155,0.02563678465100893,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers Age,18-24,1189,0.19665894806483625,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers Age,25-34,1758,0.2907707575256368,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers Age,35-44,155,0.02563678465100893,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers Age,45-64,155,0.02563678465100893,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,CA,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers,Number,7133,0.023461346174086937,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers,Number,4153,0.013659746342490264,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers,Number,2979,0.009798310704136406,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers Age,13-17,200,0.028038693396887707,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers Age,18-24,1917,0.26875087620916865,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers Age,25-34,3329,0.4667040515911958,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers Age,35-44,1266,0.17748492920229916,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers Age,45-64,418,0.0586008691994953,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers Age,13-17,55,0.0077106406841441185,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers Age,18-24,803,0.11257535398850413,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers Age,25-34,2021,0.28333099677555024,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers Age,35-44,1024,0.14355811019206505,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers Age,45-64,249,0.034908173279125196,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers Age,13-17,145,0.020328052712743586,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers Age,18-24,1114,0.15617552222066453,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers Age,25-34,1307,0.18323286134866115,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers Age,35-44,242,0.03392681901023412,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers Age,45-64,169,0.02369269592037011,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,CA,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers,Number,1042,0.0014883226660686714,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers,Number,431,0.0006156113906675599,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers,Number,610,0.0008712829427081474,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers Age,13-17,174,0.16698656429942418,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers Age,18-24,449,0.4309021113243762,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers Age,25-34,322,0.30902111324376197,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers Age,35-44,95,0.09117082533589252,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers Age,18-24,143,0.13723608445297505,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers Age,25-34,191,0.1833013435700576,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers Age,35-44,95,0.09117082533589252,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers Age,13-17,174,0.16698656429942418,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers Age,18-24,305,0.2927063339731286,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers Age,25-34,130,0.12476007677543186,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DE,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers,Number,16596,0.05458635933059678,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers,Number,9373,0.03082899168508578,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers,Number,7222,0.023754078518050732,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers Age,13-17,480,0.028922631959508314,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers Age,18-24,5602,0.33755121716076164,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers Age,25-34,7132,0.42974210653169437,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers Age,35-44,2750,0.16570257893468304,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers Age,45-64,629,0.037900698963605685,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers Age,13-17,268,0.016148469510725474,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers Age,18-24,2385,0.14370932754880694,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers Age,25-34,4128,0.24873463485177152,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers Age,35-44,2064,0.12436731742588576,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers Age,45-64,527,0.03175463967221017,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers Age,13-17,212,0.01277416244878284,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers Age,18-24,3216,0.19378163412870572,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers Age,25-34,3004,0.18100747167992287,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers Age,35-44,685,0.04127500602554832,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers Age,45-64,102,0.006146059291395517,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DE,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers,Number,3475,0.004963456108050512,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers,Number,1850,0.0026424154819837255,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers,Number,1624,0.0023196122933738217,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers Age,13-17,42,0.012086330935251799,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers Age,18-24,1056,0.30388489208633096,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers Age,25-34,1881,0.541294964028777,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers Age,35-44,410,0.11798561151079137,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers Age,45-64,84,0.024172661870503598,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers Age,13-17,42,0.012086330935251799,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers Age,18-24,462,0.1329496402877698,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers Age,25-34,1009,0.29035971223021584,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers Age,35-44,252,0.0725179856115108,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers Age,45-64,84,0.024172661870503598,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers Age,18-24,594,0.17093525179856114,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers Age,25-34,871,0.25064748201438847,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers Age,35-44,158,0.04546762589928058,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,FR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers,Number,15741,0.0517741553520682,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers,Number,9108,0.029957372908114937,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers,Number,6632,0.021813493316493,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers Age,13-17,734,0.04662982021472588,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers Age,18-24,6188,0.3931135251889969,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers Age,25-34,6504,0.41318848866018676,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers Age,35-44,1863,0.1183533447684391,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers Age,45-64,449,0.028524236071405883,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers Age,13-17,252,0.016009148084619784,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers Age,18-24,3053,0.19395209961247697,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers Age,25-34,4213,0.2676450034940601,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers Age,35-44,1236,0.07852105965313512,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers Age,45-64,353,0.02242551299155073,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers Age,13-17,482,0.03062067213010609,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers Age,18-24,3135,0.19916142557651992,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers Age,25-34,2291,0.14554348516612667,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers Age,35-44,627,0.039832285115303984,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers Age,45-64,96,0.006098723079855155,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,FR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers,Number,2211,0.003158043584143793,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers,Number,1776,0.0025367188627043766,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers,Number,434,0.0006198963887464523,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers Age,18-24,803,0.36318407960199006,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers Age,25-34,1245,0.5630936227951153,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers Age,35-44,161,0.07281772953414745,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers Age,18-24,645,0.29172320217096337,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers Age,25-34,968,0.43781094527363185,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers Age,35-44,161,0.07281772953414745,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers Age,18-24,158,0.07146087743102668,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers Age,25-34,276,0.1248303934871099,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IN,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers,Number,7588,0.024957899168508577,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers,Number,6972,0.022931796652983897,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers,Number,615,0.0020228133880644144,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers Age,13-17,263,0.03465998945703743,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers Age,18-24,2579,0.33987875593041644,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers Age,25-34,4029,0.5309699525566685,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers Age,35-44,667,0.08790195044807592,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers Age,45-64,47,0.0061939905113336845,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers Age,13-17,214,0.02820242488139167,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers Age,18-24,2284,0.3010015814443859,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers Age,25-34,3807,0.5017132314180285,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers Age,35-44,618,0.08144438587243015,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers Age,45-64,47,0.0061939905113336845,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers Age,13-17,49,0.006457564575645757,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers Age,18-24,295,0.03887717448603058,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers Age,25-34,221,0.02912493410648392,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers Age,35-44,49,0.006457564575645757,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IN,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,JP,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers,Number,1545,0.0050817019261130405,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers,Number,1062,0.0034930533628039153,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers,Number,482,0.001585359435848858,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers Age,13-17,48,0.031067961165048542,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers Age,18-24,449,0.2906148867313916,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers Age,25-34,670,0.4336569579288026,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers Age,35-44,352,0.227831715210356,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers Age,45-64,24,0.015533980582524271,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers Age,18-24,328,0.21229773462783172,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers Age,25-34,404,0.2614886731391586,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers Age,35-44,328,0.21229773462783172,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers Age,13-17,48,0.031067961165048542,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers Age,18-24,120,0.07766990291262135,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers Age,25-34,265,0.1715210355987055,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers Age,35-44,24,0.015533980582524271,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers Age,45-64,24,0.015533980582524271,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,JP,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers,Number,2464,0.00351941175546373,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers,Number,1518,0.0021682090279196192,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers,Number,945,0.0013497743948511463,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers Age,13-17,123,0.04991883116883117,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers Age,18-24,442,0.1793831168831169,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers Age,25-34,1572,0.637987012987013,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers Age,35-44,282,0.11444805194805195,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers Age,45-64,43,0.0174512987012987,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers Age,13-17,86,0.0349025974025974,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers Age,18-24,260,0.10551948051948051,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers Age,25-34,954,0.3871753246753247,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers Age,35-44,173,0.07021103896103896,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers Age,45-64,43,0.0174512987012987,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers Age,13-17,36,0.01461038961038961,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers Age,18-24,181,0.07345779220779221,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers Age,25-34,617,0.25040584415584416,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers Age,35-44,109,0.044237012987012984,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,IT,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers,Number,16632,0.054704767919166404,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers,Number,9725,0.03198676455109988,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers,Number,6906,0.02271471424060625,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers Age,13-17,626,0.03763828763828764,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers Age,18-24,5682,0.3416305916305916,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers Age,25-34,8090,0.4864117364117364,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers Age,35-44,2034,0.12229437229437229,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers Age,45-64,197,0.011844636844636845,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers Age,13-17,255,0.015331890331890332,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers Age,18-24,2994,0.18001443001443002,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers Age,25-34,4683,0.2815656565656566,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers Age,35-44,1663,0.09998797498797499,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers Age,45-64,127,0.007635882635882636,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers Age,13-17,370,0.022246272246272247,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers Age,18-24,2688,0.16161616161616163,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers Age,25-34,3406,0.2047859547859548,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers Age,35-44,370,0.022246272246272247,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers Age,45-64,69,0.004148629148629149,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,IT,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers,Number,1358,0.001939675797045351,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers,Number,1064,0.0015197459853138833,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers,Number,293,0.0004185014790385036,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers Age,13-17,85,0.0625920471281296,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers Age,18-24,243,0.17893961708394698,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers Age,25-34,791,0.5824742268041238,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers Age,35-44,195,0.14359351988217967,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers Age,45-64,42,0.030927835051546393,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers Age,13-17,85,0.0625920471281296,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers Age,18-24,170,0.1251840942562592,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers Age,25-34,681,0.5014727540500736,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers Age,35-44,85,0.0625920471281296,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers Age,45-64,42,0.030927835051546393,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers Age,18-24,73,0.05375552282768778,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers Age,25-34,110,0.08100147275405008,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers Age,35-44,110,0.08100147275405008,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,ES,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers,Number,8571,0.028191111461951374,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers,Number,6171,0.020297205557309756,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers,Number,2399,0.00789061677718135,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers Age,13-17,210,0.024501225061253063,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers Age,18-24,2905,0.338933613347334,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers Age,25-34,3854,0.4496558161241395,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers Age,35-44,1269,0.14805740287014352,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers Age,45-64,330,0.038501925096254816,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers Age,13-17,110,0.012833975032084938,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers Age,18-24,1956,0.22821141057052852,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers Age,25-34,2754,0.32131606580329014,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers Age,35-44,1019,0.11888927779722319,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers Age,45-64,330,0.038501925096254816,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers Age,13-17,99,0.011550577528876444,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers Age,18-24,949,0.1107222027768055,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers Age,25-34,1099,0.1282230778205577,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers Age,35-44,249,0.02905145257262863,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,ES,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers,Number,5527,0.007894394794013,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers,Number,3100,0.004427831348188946,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers,Number,2426,0.003465135113131091,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers Age,13-17,307,0.055545503889994574,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers Age,18-24,1392,0.25185453229600147,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers Age,25-34,2640,0.4776551474579338,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers Age,35-44,927,0.16772209155056994,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers Age,45-64,258,0.04667993486520716,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers Age,13-17,105,0.01899764791025873,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers Age,18-24,735,0.1329835353718111,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers Age,25-34,1629,0.29473493757915686,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers Age,35-44,472,0.08539895060611544,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers Age,45-64,157,0.028406006875339243,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers Age,13-17,202,0.036547855979735845,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers Age,18-24,657,0.11887099692419034,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers Age,25-34,1011,0.1829202098787769,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers Age,35-44,454,0.0821422109643568,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers Age,45-64,101,0.018273927989867923,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,MX,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers,Number,6987,0.022981133564887908,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers,Number,5533,0.018198742237659195,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers,Number,1453,0.004779102199768445,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers Age,13-17,236,0.033777014455417205,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers Age,18-24,2662,0.38099327322169746,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers Age,25-34,3290,0.47087448117933306,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers Age,35-44,605,0.08658938027765851,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers Age,45-64,191,0.0273364820380707,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers Age,13-17,146,0.0208959496207242,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers Age,18-24,2081,0.2978388435666237,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers Age,25-34,2619,0.37483898668956633,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers Age,35-44,538,0.07700014312294261,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers Age,45-64,146,0.0208959496207242,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers Age,13-17,89,0.0127379418920853,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers Age,18-24,581,0.0831544296550737,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers Age,25-34,671,0.09603549448976671,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers Age,35-44,67,0.0095892371547159,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers Age,45-64,44,0.006297409474738801,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,MX,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers,Number,24572,0.035096990931515734,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers,Number,12749,0.01820981350260028,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers,Number,11822,0.016885749096222487,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers Age,13-17,603,0.024540126973791307,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers Age,18-24,8190,0.3333062021813446,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers Age,25-34,12520,0.5095230343480385,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers Age,35-44,3024,0.12306690542080417,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers Age,45-64,233,0.009482337620055348,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers Age,13-17,328,0.013348526778447013,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers Age,18-24,3562,0.14496174507569592,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers Age,25-34,6608,0.2689239785121276,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers Age,35-44,2062,0.08391665310109067,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers Age,45-64,187,0.00761028813283412,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers Age,13-17,274,0.011150903467361225,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers Age,18-24,4628,0.1883444571056487,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers Age,25-34,5911,0.24055835910792772,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers Age,35-44,962,0.039150252319713495,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers Age,45-64,45,0.0018313527592381572,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,BR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers,Number,26641,0.0876256446689822,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers,Number,19064,0.06270392590253658,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers,Number,7576,0.02491842963898537,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers Age,13-17,578,0.02169588228670095,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers Age,18-24,8916,0.33467212191734547,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers Age,25-34,12366,0.46417176532412446,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers Age,35-44,4239,0.15911564881198154,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers Age,45-64,540,0.020269509402800194,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers Age,13-17,397,0.014901843023910514,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers Age,18-24,5560,0.2087008745917946,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers Age,25-34,9030,0.3389512405690477,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers Age,35-44,3616,0.1357306407417139,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers Age,45-64,459,0.017229082992380167,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers Age,13-17,180,0.006756503134266732,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers Age,18-24,3355,0.12593371119702715,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers Age,25-34,3335,0.12518298862655305,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers Age,35-44,622,0.023347471941743927,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers Age,45-64,80,0.003002890281896325,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,BR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers,Number,1073,0.0015326009795505607,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers,Number,572,0.0008170063003755086,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers,Number,500,0.0007141663464820879,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers Age,18-24,170,0.15843429636533085,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers Age,25-34,693,0.6458527493010252,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers Age,35-44,121,0.11276794035414725,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers Age,45-64,88,0.08201304753028892,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers Age,18-24,132,0.12301957129543337,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers Age,25-34,308,0.2870456663560112,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers Age,35-44,44,0.04100652376514446,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers Age,45-64,88,0.08201304753028892,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers Age,18-24,38,0.035414725069897485,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers Age,25-34,385,0.35880708294501396,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers Age,35-44,77,0.0717614165890028,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NL,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers,Number,1831,0.0060223923797495,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers,Number,1128,0.00371013577518156,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers,Number,702,0.0023089674771076727,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers Age,13-17,84,0.045876570180229385,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers Age,18-24,619,0.3380666302566903,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers Age,25-34,656,0.3582741671217914,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers Age,35-44,425,0.23211359912616056,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers Age,45-64,45,0.024576734025122882,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers Age,13-17,45,0.024576734025122882,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers Age,18-24,248,0.13544511196067724,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers Age,25-34,383,0.2091753140360459,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers Age,35-44,406,0.2217367558711087,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers Age,45-64,45,0.024576734025122882,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers Age,13-17,39,0.0212998361551065,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers Age,18-24,371,0.2026215182960131,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers Age,25-34,273,0.1490988530857455,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers Age,35-44,19,0.010376843255051884,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NL,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers,Number,1832,0.0026167054935103706,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers,Number,1010,0.0014426160198938178,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers,Number,821,0.0011726611409235885,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers Age,13-17,32,0.017467248908296942,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers Age,18-24,883,0.4819868995633188,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers Age,25-34,621,0.33897379912663755,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers Age,35-44,261,0.14246724890829696,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers Age,45-64,32,0.017467248908296942,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers Age,13-17,32,0.017467248908296942,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers Age,18-24,423,0.23089519650655022,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers Age,25-34,326,0.1779475982532751,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers Age,35-44,195,0.1064410480349345,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers Age,45-64,32,0.017467248908296942,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers Age,18-24,459,0.25054585152838427,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers Age,25-34,295,0.16102620087336245,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers Age,35-44,65,0.035480349344978165,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,AR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers,Number,4640,0.01526155141564046,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers,Number,3271,0.01075873592253447,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers,Number,1368,0.004499526365645721,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers Age,13-17,175,0.03771551724137931,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers Age,18-24,1584,0.3413793103448276,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers Age,25-34,2283,0.49202586206896554,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers Age,35-44,504,0.10862068965517241,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers Age,45-64,93,0.02004310344827586,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers Age,13-17,46,0.009913793103448277,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers Age,18-24,1028,0.22155172413793103,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers Age,25-34,1706,0.36767241379310345,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers Age,35-44,397,0.0855603448275862,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers Age,45-64,93,0.02004310344827586,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers Age,13-17,128,0.027586206896551724,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers Age,18-24,555,0.11961206896551724,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers Age,25-34,577,0.12435344827586207,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers Age,35-44,106,0.022844827586206897,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,AR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,SE,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers,Number,1172,0.003854857383433323,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers,Number,760,0.0024997368698031785,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers,Number,411,0.0013518313861698768,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers Age,13-17,75,0.06399317406143344,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers Age,18-24,548,0.46757679180887374,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers Age,25-34,315,0.2687713310580205,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers Age,35-44,171,0.14590443686006827,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers Age,45-64,61,0.05204778156996587,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers Age,13-17,41,0.03498293515358362,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers Age,18-24,308,0.2627986348122867,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers Age,25-34,246,0.2098976109215017,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers Age,35-44,102,0.08703071672354949,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers Age,45-64,61,0.05204778156996587,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers Age,13-17,34,0.02901023890784983,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers Age,18-24,240,0.20477815699658702,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers Age,25-34,68,0.05802047781569966,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers Age,35-44,68,0.05802047781569966,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,SE,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,DK,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers,Number,500,0.0016445637301336702,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers,Number,303,0.0009966056204610042,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers,Number,196,0.0006446689822123987,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers Age,13-17,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers Age,18-24,177,0.354,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers Age,25-34,251,0.502,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers Age,35-44,35,0.07,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers Age,45-64,35,0.07,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers Age,18-24,71,0.142,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers Age,25-34,160,0.32,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers Age,35-44,35,0.07,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers Age,45-64,35,0.07,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers Age,18-24,106,0.212,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers Age,25-34,90,0.18,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,DK,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,NO,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers,Number,615,0.0020228133880644144,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers,Number,315,0.0010360751499842121,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers,Number,299,0.0009834491106199348,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers Age,13-17,18,0.02926829268292683,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers Age,18-24,228,0.37073170731707317,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers Age,25-34,276,0.44878048780487806,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers Age,35-44,67,0.10894308943089431,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers Age,45-64,24,0.03902439024390244,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers Age,18-24,97,0.15772357723577235,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers Age,25-34,145,0.23577235772357724,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers Age,35-44,48,0.07804878048780488,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers Age,45-64,24,0.03902439024390244,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers Age,13-17,18,0.02926829268292683,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers Age,18-24,131,0.21300813008130082,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers Age,25-34,131,0.21300813008130082,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers Age,35-44,18,0.02926829268292683,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,NO,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,PL,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers,Number,5295,0.017415929902115566,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers,Number,2597,0.008541864014314282,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers,Number,2697,0.008870776760341016,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers Age,13-17,469,0.08857412653446647,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers Age,18-24,2667,0.5036827195467423,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers Age,25-34,1512,0.2855524079320113,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers Age,35-44,545,0.10292728989612843,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers Age,45-64,99,0.018696883852691217,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers Age,13-17,199,0.03758262511803588,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers Age,18-24,1048,0.19792256846081208,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers Age,25-34,923,0.17431539187913125,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers Age,35-44,349,0.06591123701605288,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers Age,45-64,74,0.013975448536355052,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers Age,13-17,269,0.050802644003777146,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers Age,18-24,1618,0.3055712936732767,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers Age,25-34,588,0.11104815864022663,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers Age,35-44,196,0.03701605288007554,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers Age,45-64,24,0.004532577903682719,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,PL,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers,Number,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers Age,18-24,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers Age,25-34,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers Age,35-44,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,TR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers,Number,2303,0.007574860540995685,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers,Number,1722,0.00566387748658036,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers,Number,580,0.0019076939269550574,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers Age,13-17,63,0.02735562310030395,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers Age,18-24,750,0.32566217976552325,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers Age,25-34,1032,0.44811115935735996,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers Age,35-44,373,0.1619626574033869,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers Age,45-64,84,0.0364741641337386,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers Age,13-17,63,0.02735562310030395,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers Age,18-24,441,0.19148936170212766,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers Age,25-34,819,0.3556231003039514,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers Age,35-44,315,0.13677811550151975,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers Age,45-64,84,0.0364741641337386,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers Age,13-17,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers Age,18-24,309,0.13417281806339557,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers Age,25-34,212,0.09205384281372124,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers Age,35-44,58,0.02518454190186713,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers Age,45-64,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,TR,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers,Number,700117,1,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers,Number,276514,0.39495398626229616,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers,Number,423602,0.6050445854050108,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers Age,13-17,20216,0.028875173720963782,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers Age,18-24,123926,0.17700755730827847,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers Age,25-34,326701,0.46663771912408925,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers Age,35-44,186107,0.2658227124894839,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers Age,45-64,43106,0.06156970906291377,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Followers Age,65-,57,0.00008141496349895803,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers Age,13-17,5182,0.00740162001494036,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers Age,18-24,44181,0.06310516670785025,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers Age,25-34,108922,0.155576853583044,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers Age,35-44,94405,0.13484174787928305,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers Age,45-64,23766,0.0339457547809866,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Male Followers Age,65-,57,0.00008141496349895803,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers Age,13-17,15034,0.021473553706023423,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers Age,18-24,79744,0.11390096226773525,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers Age,25-34,217779,0.3110608655410453,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers Age,35-44,91702,0.13098096461020087,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers Age,45-64,19340,0.027623954281927165,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Global,Engagement Rate,Number,0.055702,1,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers,Number,304032,1,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers,Number,206602,0.679540311546153,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers,Number,97429,0.3204563993263867,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers Age,13-17,12757,0.04195939901063046,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers Age,18-24,105872,0.34822650247342385,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers Age,25-34,132312,0.4351910325228923,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers Age,35-44,43080,0.141695610988317,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers Age,45-64,9996,0.03287811809283234,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Followers Age,65-,12,0.00003946952952320808,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers Age,13-17,6981,0.022961398800126303,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers Age,18-24,63735,0.20963253868013892,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers Age,25-34,91752,0.301784022734449,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers Age,35-44,35462,0.11663903799600042,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers Age,45-64,8670,0.02851673508051784,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers Age,13-17,5775,0.01899471108304389,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers Age,18-24,42137,0.13859396379328492,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers Age,25-34,40560,0.13340700978844333,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers Age,35-44,7618,0.0250565729923166,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers Age,45-64,1325,0.004358093884854226,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Female Followers Age,65-,12,0.00003946952952320808,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Global,Engagement Rate,Number,0.020021,1,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers,Number,1230082.3936000003,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers,Number,504155.7993,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers,Number,725916.5216000001,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers Age,13-17,28041.412500000002,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers Age,18-24,187180.44629999998,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers Age,25-34,591434.8176,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers Age,35-44,345501.45869999996,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers Age,45-64,77785.4204,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Followers Age,65-,108.498,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers Age,13-17,7734.601500000001,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers Age,18-24,63847.710300000006,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers Age,25-34,193808.55920000002,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers Age,35-44,191538.07140000002,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers Age,45-64,47097.9763,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Male Followers Age,65-,108.498,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers Age,13-17,20304.4001,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers Age,18-24,123329.1775,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers Age,25-34,397617.8258,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers Age,35-44,153961.13830000002,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers Age,45-64,30687.434800000003,0,2025-03-12 08:53:50
+61ed3210-a0aa-417c-b635-ed1be1c09a52,Bresha Webb,breshawebb,breshawebb,instagram,Weighted-Total,Female Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers,Number,282542.7477,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers,Number,177111.3758,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers,Number,105418.0348,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers Age,13-17,9842.6222,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers Age,18-24,88916.7528,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers Age,25-34,124707.09230000002,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers Age,35-44,47385.1996,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers Age,45-64,11656.472400000002,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers Age,13-17,4849.6347000000005,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers Age,18-24,46305.36979999999,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers Age,25-34,78868.9515,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers Age,35-44,37471.560399999995,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers Age,45-64,9598.813400000001,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Male Followers Age,65-,0,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers Age,13-17,4990.6035999999995,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers Age,18-24,42604.8232,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers Age,25-34,45830.77230000001,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers Age,35-44,9907.7328,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers Age,45-64,2057.4665,0,2025-03-12 08:53:50
+4d03736f-4316-45ed-8645-4dda06688b4c,Tomb Raider,tombraider,tombraider,instagram,Weighted-Total,Female Followers Age,65-,0,0,2025-03-12 08:53:50
