@@ -1,15 +1,14 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
-import { downloadAndExtractReportFiles } from './downloadAndExtractReportFiles.js';
-import { CSV_STRUCTURE } from './schemas/demand-data.js';
-import { checkEntities, createDemandReport, getReport, getReports } from './DemandClient.js';
-
+import { downloadAndExtractReportFiles } from './utils/downloadAndExtractReportFiles.js';
+import { checkEntities, createDemandReport, getReport, getReports } from './AudienseDemandClient/DemandClient.js';
 
 // MCP Server instance
 const server = new McpServer({
     name: "audiense-demand",
     version: "1.0.0",
+    description: "Audiense Demand API MCP Server"
 });
 
 /**
@@ -20,119 +19,6 @@ async function runServer() {
     await server.connect(transport);
     console.error("Demand Public API MCP Server running on stdio");
 }
-
-// Add mock CSV files as resources
-server.resource(
-    "entities",
-    "mock://audiense-demand/mockReportId/entities/All_Entities.csv",
-    {
-        description: "Entity information including social media handles and metadata (e.g. name, entity type, place of birth, birth date, primary language, gender, age, etc.)",
-        mimeType: "text/csv"
-    },
-    async () => {
-        const fs = await import('fs/promises');
-        const path = await import('path');
-        const { fileURLToPath } = await import('url');
-
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = path.dirname(__filename);
-
-        const content = await fs.readFile(path.join(__dirname, 'mock-data/mockReportId/entities/All_Entities.csv'), 'utf-8');
-        return {
-            contents: [{
-                uri: "mock://audiense-demand/mockReportId/entities/All_Entities.csv",
-                text: content,
-                mimeType: "text/csv"
-            }]
-        };
-    }
-);
-
-server.resource(
-    "demand-scores",
-    "mock://audiense-demand/mockReportId/demand_score",
-    {
-        description: "Demand score data across different platforms and metrics",
-        mimeType: "text/csv"
-    },
-    async () => {
-        const fs = await import('fs/promises');
-        const path = await import('path');
-        const { fileURLToPath } = await import('url');
-
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = path.dirname(__filename);
-
-        const files = [
-            'all_platforms_demand_score.csv',
-            'google_demand_score.csv',
-            'google_growth_demand_score.csv',
-            'instagram_demand_score.csv',
-            'tiktok_demand_score.csv',
-            'twitter_demand_score.csv',
-            'url_demand_score.csv',
-            'youtube_demand_score.csv',
-            'youtube_search_term_demand_score.csv'
-        ];
-
-        const contents = await Promise.all(files.map(async (file) => {
-            const content = await fs.readFile(path.join(__dirname, 'mock-data/mockReportId/demand_score', file), 'utf-8');
-            return {
-                uri: `mock://audiense-demand/mockReportId/demand_score/${file}`,
-                text: content,
-                mimeType: "text/csv"
-            };
-        }));
-
-        return { contents };
-    }
-);
-
-server.resource(
-    "demand-data",
-    "mock://audiense-demand/mockReportId/demand_data",
-    {
-        description: `Raw demand data for each platform including followers, engagement rate, gender distribution, age distribution, gender-age distribution, etc.
-
-CSV Structure:
-${JSON.stringify(CSV_STRUCTURE, null, 2)}`,
-        mimeType: "application/json"
-    },
-    async () => {
-        const fs = await import('fs/promises');
-        const path = await import('path');
-        const { fileURLToPath } = await import('url');
-
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = path.dirname(__filename);
-
-        const platforms = [
-            'google',
-            'instagram',
-            'tiktok',
-            'twitter',
-            'url',
-            'youtube',
-            'youtube_search_term'
-        ];
-
-        const contents = await Promise.all(platforms.map(async (platform) => {
-            const platformPath = path.join(__dirname, 'mock-data/mockReportId/demand_data', platform);
-            const files = await fs.readdir(platformPath);
-            const platformContents = await Promise.all(files.map(async (file) => {
-                const content = await fs.readFile(path.join(platformPath, file), 'utf-8');
-                return {
-                    uri: `mock://audiense-demand/mockReportId/demand_data/${platform}/${file}`,
-                    text: content,
-                    mimeType: file.endsWith('.json') ? 'application/json' : 'text/csv'
-                };
-            }));
-            return platformContents;
-        }));
-
-        return { contents: contents.flat() };
-    }
-);
 
 /**
  * MCP Tool: Create a demand report
@@ -251,7 +137,81 @@ server.tool(
  */
 server.tool(
     "download-report-files",
-    "Download and extract files for a specific report. The files include the entities metadata, the demand scores and the demad data for the entities audiences across different platforms. This data includes the number of followers, engagement rate, gender distribution, age distribution, gender-age distribution, etc.",
+    `Download and extract files for a specific report. The files include:
+
+1. Entities Metadata (All_Entities.csv):
+   - Basic info: name, reference, age, gender, birthdate
+   - Social media handles for each platform
+   - Categories and entity type
+   - Geographic info: place of birth, primarylanguage
+
+2. Platform-specific Audience Data (demand_data/):
+   Each platform's CSV file has the following columns:
+   - id: Entity ID
+   - name: Entity name
+   - reference: Reference identifier
+   - term: Search term or username
+   - platform: Platform name
+   - segment: Geographic segment (Global, US, GB, etc.)
+   - variable: Metric type (e.g., "Followers", "Male Followers", "Female Followers", "Engagement Rate")
+   - value: Value indicates what the absolute column represents (Number, Age Group Range, Year and Month, etc.)
+   - absolute: The actual value of the metric.
+   - weight: Weight that it represents in relation to the global value.
+   - timestamp: Data collection timestamp
+
+   Available platforms and their metrics:
+   - Instagram:
+     * variable="Followers" for total followers
+     * variable="Male Followers" for male follower count
+     * variable="Female Followers" for female follower count
+     * variable="Engagement Rate" for engagement rate
+     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
+     * variable="Male Followers Age" for male followers age distribution. Age range is specified in the value column.
+     * variable="Female Followers Age" for female followers age distribution. Age range is specified in the value column.
+   - YouTube:
+     * variable="Followers" for total subscribers
+     * variable="Male Followers" for male follower count
+     * variable="Female Followers" for female follower count
+     * variable="Engagement Rate" for engagement rate
+     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
+     * variable="Male Followers Age" for male followers age distribution. Age range is specified in the value column.
+     * variable="Female Followers Age" for female followers age distribution. Age range is specified in the value column.
+   - TikTok:
+     * variable="Followers" for total followers
+     * variable="Male Followers" for male follower count
+     * variable="Female Followers" for female follower count
+     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
+     * variable="Male Followers Age" for male followers age distribution. Age range is specified in the value column.
+     * variable="Female Followers Age" for female followers age distribution. Age range is specified in the value column.
+   - Twitter:
+     * variable="Followers" for total followers
+     * variable="Male Followers" for male follower count
+     * variable="Female Followers" for female follower count
+     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
+     * variable="Interest Followers" for followers interested in a specific topic. Topic is specified in the value column.
+   - Google (36 months):
+     * variable="Search Volume" for search volume
+     * variable="Avg Search Variance YoY" for year-over-year change. Range of months is specified in the value column.
+     * variable="Avg Search Volume L12M" for average search volume in a range of 12 months. Range of months is specified in the value column.
+   - URL:
+     * variable="Traffic" for website traffic
+   - Youtube Search Terms (12 months):
+     * variable="Search Volume" for search volume
+     * variable="Avg Search Volume L12M" for average search volume in a range of 12 months. Range of months is specified in the value column.
+
+3. Demand Scores (demand_score/):
+   Each demand score CSV file has similar structure with:
+   - id: Entity ID
+   - name: Entity name
+   - reference: Reference identifier
+   - platform: Platform name
+   - segment: Geographic segment
+   - variable: Metric type
+   - value: Value indicates what the absolute column represents, in this case the demand score.
+   - absolute: The demand score value.
+   - weight: Not relevant for demand scores.
+   - timestamp: Data collection timestamp
+`,
     {
         reportId: z.string().describe("The ID of the report to download files for"),
         entitiesFilesUrl: z.string().url().describe("URL to download entities files from"),

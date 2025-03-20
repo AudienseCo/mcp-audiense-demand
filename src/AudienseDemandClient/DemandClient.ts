@@ -1,7 +1,5 @@
-import { AuthClient } from './AuthClient.js';
+import { AuthClient } from '../auth/AuthClient.js';
 import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse } from './types.js';
-
-
 
 export async function createDemandReport(title: string, entitiesReferences: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<CreateDemandReportResponse>('/demand-report', {
