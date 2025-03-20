@@ -4,18 +4,9 @@ import { z } from "zod";
 import fetch, { RequestInit } from 'node-fetch';
 import AdmZip from 'adm-zip';
 import { CSV_STRUCTURE } from './schemas/demand-data.js';
+import { AuthClient } from './AuthClient.js';
 
-const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN;
-const AUTH0_CLIENT_ID = process.env.AUTH0_CLIENT_ID;
 const API_BASE_URL = process.env.API_BASE_URL;
-
-interface TokenCache {
-    access_token: string;
-    refresh_token?: string;
-    expires_at: number;
-}
-
-let tokenCache: TokenCache | null = null;
 
 // MCP Server instance
 const server = new McpServer({
@@ -137,68 +128,10 @@ ${JSON.stringify(CSV_STRUCTURE, null, 2)}`,
 );
 
 /**
- * Get a new access token using the refresh token
- */
-async function refreshAccessToken(refresh_token: string): Promise<TokenCache> {
-    try {
-        const response = await fetch(`https://${AUTH0_DOMAIN}/oauth/token`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                grant_type: 'refresh_token',
-                client_id: AUTH0_CLIENT_ID,
-                refresh_token: refresh_token
-            })
-        });
-
-        if (!response.ok) {
-            const error = await response.text();
-            throw new Error(`Auth0 token refresh failed: ${error}`);
-        }
-
-        const data = await response.json() as {
-            access_token: string;
-            refresh_token: string;
-            expires_in: number;
-        };
-
-        return {
-            access_token: data.access_token,
-            refresh_token: data.refresh_token,
-            expires_at: Date.now() + (data.expires_in * 1000) - 60000 // Subtract 1 minute for safety
-        };
-    } catch (error) {
-        console.error('Error refreshing token:', error);
-        throw error;
-    }
-}
-
-/**
- * Get an access token, refreshing if necessary
- */
-async function getAccessToken(): Promise<string> {
-    if (tokenCache && tokenCache.expires_at > Date.now()) {
-        return tokenCache.access_token;
-    }
-
-    try {
-        tokenCache = await refreshAccessToken(tokenCache?.refresh_token || process.env.INITIAL_REFRESH_TOKEN || '');
-        return tokenCache.access_token;
-    } catch (error) {
-        console.error('Failed to refresh token:', error);
-        tokenCache = null;
-    }
-
-    throw new Error('No valid token available');
-}
-
-/**
  * Helper function to make authenticated requests to the API
  */
 async function makeAuthenticatedRequest(endpoint: string, options: RequestInit = {}) {
-    const token = await getAccessToken();
+    const token = await AuthClient.getInstance().getAccessToken();
 
     const headers = {
         ...options.headers,
@@ -407,7 +340,7 @@ server.tool(
  */
 server.tool(
     "get-report-summary-by-channels",
-    "Get a summary of the report broken down by channels. This summary includes followers and scores for each channel at a country-level.",
+    "Get a summary of the report broken down by channels. This summary includes the number of followers and the demand scores for each channel at a country-level.",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
         country: z.string().default("Weighted-Total").describe("The country to filter by (defaults to Weighted-Total)"),
@@ -447,7 +380,7 @@ server.tool(
  */
 server.tool(
     "get-report-summary-by-countries",
-    "Get a summary of the report broken down by countries. This summary includes followers and scores for each country on a per-platform basis.",
+    "Get a summary of the report broken down by countries. This summary includes the number of followers and the demand scores for each country on a per-platform basis.",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
         platform: z.string().describe("Platform name to analyze"),
@@ -618,7 +551,7 @@ server.tool(
  */
 server.tool(
     "download-report-files",
-    "Download and extract files for a specific report",
+    "Download and extract files for a specific report. The files include the entities metadata, the demand scores and the demad data for the entities audiences across different platforms. This data includes the number of followers, engagement rate, gender distribution, age distribution, gender-age distribution, etc.",
     {
         reportId: z.string().describe("The ID of the report to download files for"),
         entitiesFilesUrl: z.string().url().describe("URL to download entities files from"),
