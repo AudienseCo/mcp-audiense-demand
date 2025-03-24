@@ -331,7 +331,7 @@ server.tool(
                     },
                     {
                         type: "text",
-                        text: `2. Enter the code: ${deviceCodeResponse.user_code}`
+                        text: `2. Verify the code in the browser matches this one: ${deviceCodeResponse.user_code}`
                     },
                     {
                         type: "text",
@@ -339,7 +339,7 @@ server.tool(
                     },
                     {
                         type: "text",
-                        text: `4. After completing the authentication in your browser, please wait a moment and then try your request again.`
+                        text: `4. After completing the authentication in the browser, the user should write the request again.`
                     },
                     {
                         type: "text",
