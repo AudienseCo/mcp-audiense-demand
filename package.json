@@ -6,7 +6,7 @@
     "audiense-demand": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && cp -r src/mock-data build/ && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
     "test": "jest"
   },
   "files": [
