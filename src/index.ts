@@ -3,6 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import { downloadAndExtractReportFiles } from './utils/downloadAndExtractReportFiles.js';
 import { checkEntities, createDemandReport, getReport, getReports } from './AudienseDemandClient/DemandClient.js';
+import { AuthClient } from './auth/AuthClient.js';
 
 // MCP Server instance
 const server = new McpServer({
@@ -305,6 +306,61 @@ server.tool(
         }
     }
 );
+
+/**
+ * MCP Tool: Initiate Device Authorization Flow
+ */
+server.tool(
+    "initiate-device-auth",
+    "Start the device authorization flow to get a device code for authentication",
+    {},
+    async () => {
+        try {
+            const authClient = AuthClient.getInstance();
+            const deviceCodeResponse = await authClient.requestDeviceCode();
+
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: "Device Authorization Flow initiated. Please follow these steps:"
+                    },
+                    {
+                        type: "text",
+                        text: `1. Visit: ${deviceCodeResponse.verification_uri_complete}`
+                    },
+                    {
+                        type: "text",
+                        text: `2. Enter the code: ${deviceCodeResponse.user_code}`
+                    },
+                    {
+                        type: "text",
+                        text: `3. The code will expire in ${deviceCodeResponse.expires_in} seconds`
+                    },
+                    {
+                        type: "text",
+                        text: `4. After completing the authentication in your browser, please wait a moment and then try your request again.`
+                    },
+                    {
+                        type: "text",
+                        text: JSON.stringify(deviceCodeResponse, null, 2)
+                    }
+                ],
+            };
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: `Failed to initiate device authorization: ${errorMessage}`,
+                    },
+                ],
+            };
+        }
+    }
+);
+
 
 
 runServer().catch((error) => {

@@ -53,7 +53,7 @@ async function makeAuthenticatedRequest<T>(endpoint: string, options: RequestIni
     'Content-Type': 'application/json',
   };
 
-  const url = `${process.env.API_BASE_URL}${endpoint}`;
+  const url = `https://demandpublicapi.socialbro.me${endpoint}`;
 
   try {
     const response = await fetch(url, {
