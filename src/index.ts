@@ -1,8 +1,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
-import { downloadAndExtractReportFiles } from './utils/downloadAndExtractReportFiles.js';
-import { checkEntities, createDemandReport, getReport, getReports } from './AudienseDemandClient/DemandClient.js';
+import { checkEntities, createDemandReport, getReport, getReports, getReportSummaryByChannels, getReportSummaryByCountries, getYoutubeSearchVolumeSummary } from './AudienseDemandClient/DemandClient.js';
 import { AuthClient } from './auth/AuthClient.js';
 
 // MCP Server instance
@@ -134,145 +133,6 @@ server.tool(
 );
 
 /**
- * MCP Tool: Download report files
- */
-server.tool(
-    "download-report-files",
-    `Download and extract files for a specific report. The files include:
-
-1. Entities Metadata (All_Entities.csv):
-   - Basic info: name, reference, age, gender, birthdate
-   - Social media handles for each platform
-   - Categories and entity type
-   - Geographic info: place of birth, primarylanguage
-
-2. Platform-specific Audience Data (demand_data/):
-   Each platform's CSV file has the following columns:
-   - id: Entity ID
-   - name: Entity name
-   - reference: Reference identifier
-   - term: Search term or username
-   - platform: Platform name
-   - segment: Geographic segment (Global, US, GB, etc.)
-   - variable: Metric type (e.g., "Followers", "Male Followers", "Female Followers", "Engagement Rate")
-   - value: Value indicates what the absolute column represents (Number, Age Group Range, Year and Month, etc.)
-   - absolute: The actual value of the metric.
-   - weight: Weight that it represents in relation to the global value.
-   - timestamp: Data collection timestamp
-
-   Available platforms and their metrics:
-   - Instagram:
-     * variable="Followers" for total followers
-     * variable="Male Followers" for male follower count
-     * variable="Female Followers" for female follower count
-     * variable="Engagement Rate" for engagement rate
-     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
-     * variable="Male Followers Age" for male followers age distribution. Age range is specified in the value column.
-     * variable="Female Followers Age" for female followers age distribution. Age range is specified in the value column.
-   - YouTube:
-     * variable="Followers" for total subscribers
-     * variable="Male Followers" for male follower count
-     * variable="Female Followers" for female follower count
-     * variable="Engagement Rate" for engagement rate
-     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
-     * variable="Male Followers Age" for male followers age distribution. Age range is specified in the value column.
-     * variable="Female Followers Age" for female followers age distribution. Age range is specified in the value column.
-   - TikTok:
-     * variable="Followers" for total followers
-     * variable="Male Followers" for male follower count
-     * variable="Female Followers" for female follower count
-     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
-     * variable="Male Followers Age" for male followers age distribution. Age range is specified in the value column.
-     * variable="Female Followers Age" for female followers age distribution. Age range is specified in the value column.
-   - Twitter:
-     * variable="Followers" for total followers
-     * variable="Male Followers" for male follower count
-     * variable="Female Followers" for female follower count
-     * variable="Followers Age" for followers age distribution. Age range is specified in the value column.
-     * variable="Interest Followers" for followers interested in a specific topic. Topic is specified in the value column.
-   - Google (36 months):
-     * variable="Search Volume" for search volume
-     * variable="Avg Search Variance YoY" for year-over-year change. Range of months is specified in the value column.
-     * variable="Avg Search Volume L12M" for average search volume in a range of 12 months. Range of months is specified in the value column.
-   - URL:
-     * variable="Traffic" for website traffic
-   - Youtube Search Terms (12 months):
-     * variable="Search Volume" for search volume
-     * variable="Avg Search Volume L12M" for average search volume in a range of 12 months. Range of months is specified in the value column.
-
-3. Demand Scores (demand_score/):
-   Each demand score CSV file has similar structure with:
-   - id: Entity ID
-   - name: Entity name
-   - reference: Reference identifier
-   - platform: Platform name
-   - segment: Geographic segment
-   - variable: Metric type
-   - value: Value indicates what the absolute column represents, in this case the demand score.
-   - absolute: The demand score value.
-   - weight: Not relevant for demand scores.
-   - timestamp: Data collection timestamp
-`,
-    {
-        reportId: z.string().describe("The ID of the report to download files for"),
-        entitiesFilesUrl: z.string().url().describe("URL to download entities files from"),
-        demandScoreFilesUrl: z.string().url().describe("URL to download demand score files from")
-    },
-    async ({ reportId, entitiesFilesUrl, demandScoreFilesUrl }) => {
-        try {
-            const { entitiesFiles, demandScoreFiles } = await downloadAndExtractReportFiles(
-                reportId,
-                entitiesFilesUrl,
-                demandScoreFilesUrl
-            );
-
-            return {
-                content: [
-                    {
-                        type: "text" as const,
-                        text: "Files have been downloaded successfully:"
-                    },
-                    {
-                        type: "text" as const,
-                        text: `\nEntities Files Directory: ${entitiesFiles.path}`
-                    },
-                    {
-                        type: "text" as const,
-                        text: "Files:"
-                    },
-                    ...entitiesFiles.files.map(file => ({
-                        type: "text" as const,
-                        text: `- ${file}`
-                    })),
-                    {
-                        type: "text" as const,
-                        text: `\nDemand Score Files Directory: ${demandScoreFiles.path}`
-                    },
-                    {
-                        type: "text" as const,
-                        text: "Files:"
-                    },
-                    ...demandScoreFiles.files.map(file => ({
-                        type: "text" as const,
-                        text: `- ${file}`
-                    }))
-                ],
-            };
-        } catch (error: unknown) {
-            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
-            return {
-                content: [
-                    {
-                        type: "text",
-                        text: `Failed to download report files: ${errorMessage}`,
-                    },
-                ],
-            };
-        }
-    }
-);
-
-/**
  * MCP Tool: Check entities
  */
 server.tool(
@@ -354,6 +214,118 @@ server.tool(
                     {
                         type: "text",
                         text: `Failed to initiate device authorization: ${errorMessage}`,
+                    },
+                ],
+            };
+        }
+    }
+);
+
+
+/**
+ * MCP Tool: Get report summary by channels
+ */
+server.tool(
+    "get-report-summary-by-channels",
+    "Get a summary of the report broken down by channels",
+    {
+        reportId: z.string().describe("The ID of the report to get the summary for"),
+        country: z.string().default("Weighted-Total").describe("The country to filter by (defaults to Weighted-Total)"),
+        offset: z.number().default(0).describe("Pagination offset"),
+    },
+    async ({ reportId, country, offset }) => {
+        try {
+            const data = await getReportSummaryByChannels(reportId, country, offset);
+
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: JSON.stringify(data, null, 2)
+                    },
+                ],
+            };
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: `Failed to get report summary by channels: ${errorMessage}`,
+                    },
+                ],
+            };
+        }
+    }
+);
+
+/**
+ * MCP Tool: Get report summary by countries
+ */
+server.tool(
+    "get-report-summary-by-countries",
+    "Get a summary of the report broken down by countries",
+    {
+        reportId: z.string().describe("The ID of the report to get the summary for"),
+        platform: z.string().describe("Platform name to analyze"),
+        countries: z.array(z.string()).describe("Array of country codes to analyze"),
+        offset: z.number().optional().describe("Pagination offset")
+    },
+    async ({ reportId, platform, countries, offset }) => {
+        try {
+            const data = await getReportSummaryByCountries(reportId, platform, countries, offset);
+
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: JSON.stringify(data, null, 2)
+                    },
+                ],
+            };
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: `Failed to get report summary by countries: ${errorMessage}`,
+                    },
+                ],
+            };
+        }
+    }
+);
+
+/**
+ * MCP Tool: Get YouTube search volume summary
+ */
+server.tool(
+    "get-youtube-search-volume-summary",
+    "Get YouTube search volume summary for entities in a report",
+    {
+        reportId: z.string().describe("The ID of the report to get the summary for"),
+        country: z.string().describe("Country code to analyze"),
+    },
+    async ({ reportId, country }) => {
+        try {
+            const data = await getYoutubeSearchVolumeSummary(reportId, country);
+
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: JSON.stringify(data, null, 2)
+                    },
+                ],
+            };
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: `Failed to get YouTube search volume summary: ${errorMessage}`,
                     },
                 ],
             };

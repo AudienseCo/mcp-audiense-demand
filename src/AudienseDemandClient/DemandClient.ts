@@ -1,5 +1,5 @@
 import { AuthClient } from '../auth/AuthClient.js';
-import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse } from './types.js';
+import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse } from './types.js';
 
 export async function createDemandReport(title: string, entitiesReferences: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<CreateDemandReportResponse>('/demand-report', {
@@ -36,6 +36,30 @@ export async function checkEntities(entities: string[]) {
   const response = await makeAuthenticatedRequest<CheckEntitiesResponse>('/entity/check', {
     method: 'POST',
     body: JSON.stringify({ entities })
+  });
+
+  return response;
+}
+
+export async function getYoutubeSearchVolumeSummary(reportId: string, country: string) {
+  const response = await makeAuthenticatedRequest<GetYoutubeSearchVolumeSummaryResponse>(`/reports/youtube-search-volume-summary?reportId=${reportId}&country=${country}`, {
+    method: 'GET',
+  });
+
+  return response;
+}
+
+export async function getReportSummaryByCountries(reportId: string, platform: string, countries: string[], offset?: number) {
+  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?reportId=${reportId}&platform=${platform}&countries=${countries}&offset=${offset}`, {
+    method: 'GET',
+  });
+
+  return response;
+}
+
+export async function getReportSummaryByChannels(reportId: string, country: string, offset?: number) {
+  const response = await makeAuthenticatedRequest<GetReportSummaryByChannelsResponse>(`/reports/summary-by-channels?reportId=${reportId}&country=${country}&offset=${offset}`, {
+    method: 'GET',
   });
 
   return response;
