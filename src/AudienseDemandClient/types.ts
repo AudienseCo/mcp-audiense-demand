@@ -141,3 +141,7 @@ export type GetReportSummaryByChannelsResponse = {
     };
   }[];
 }
+
+export type RequestEntitiesResponse = {
+  templateCopyFileUrl: string;
+}

@@ -1,5 +1,5 @@
 import { AuthClient } from '../auth/AuthClient.js';
-import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse, DemandReport, GetGoogleSearchVolumeSummaryResponse } from './types.js';
+import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse, DemandReport, GetGoogleSearchVolumeSummaryResponse, RequestEntitiesResponse } from './types.js';
 
 export async function createDemandReport(title: string, entitiesReferences: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<CreateDemandReportResponse>('/demand-report', {
@@ -95,6 +95,15 @@ export async function getReportSummaryByChannels(reportId: string, country: stri
 
   const response = await makeAuthenticatedRequest<GetReportSummaryByChannelsResponse>(`/reports/summary-by-channels?${queryParams.toString()}`, {
     method: 'GET',
+  });
+
+  return response;
+}
+
+export async function requestEntities(entityNames: string[], userEmail: string) {
+  const response = await makeAuthenticatedRequest<RequestEntitiesResponse>('/entity/request', {
+    method: 'POST',
+    body: JSON.stringify({ entityNames, userEmail })
   });
 
   return response;
