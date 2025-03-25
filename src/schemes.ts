@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const VALID_COUNTRIES_SCHEME = z.enum([
+const VALID_COUNTRIES = [
   "Weighted-Total",
   "Global",
   "US",
@@ -22,7 +22,16 @@ export const VALID_COUNTRIES_SCHEME = z.enum([
   "NO",
   "PL",
   "TR"
-]);
+] as const;
+
+const VALID_COUNTRIES_AND_WEIGHTED_TOTAL = [
+  "Weighted-Total",
+  ...VALID_COUNTRIES
+] as const;
+
+export const VALID_COUNTRIES_SCHEME = z.enum(VALID_COUNTRIES_AND_WEIGHTED_TOTAL);
+
+export const VALID_SEARCH_VOLUME_COUNTRIES_SCHEME = z.enum(VALID_COUNTRIES);
 
 export const VALID_PLATFORMS_SCHEME = z.enum([
   "youtube",

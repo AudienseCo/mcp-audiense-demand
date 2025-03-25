@@ -4,7 +4,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import { checkEntities, createDemandReport, getGoogleSearchVolumeSummary, getReport, getReports, getReportSummaryByChannels, getReportSummaryByCountries, getYoutubeSearchVolumeSummary } from './AudienseDemandClient/DemandClient.js';
 import { AuthClient } from './auth/AuthClient.js';
-import { VALID_COUNTRIES_SCHEME, VALID_PLATFORMS_SCHEME } from './schemes.js';
+import { VALID_COUNTRIES_SCHEME, VALID_PLATFORMS_SCHEME, VALID_SEARCH_VOLUME_COUNTRIES_SCHEME } from './schemes.js';
 
 // MCP Server instance
 const server = new McpServer({
@@ -300,7 +300,7 @@ server.tool(
     "Get YouTube search volume summary for entities in a report",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
-        country: VALID_COUNTRIES_SCHEME.describe("Country code to analyze"),
+        country: VALID_SEARCH_VOLUME_COUNTRIES_SCHEME.default("Global").describe("Country code to analyze"),
     },
     async ({ reportId, country }) => {
         try {
@@ -336,7 +336,7 @@ server.tool(
     "Get Google search volume summary for entities in a report",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
-        country: VALID_COUNTRIES_SCHEME.describe("Country code to analyze"),
+        country: VALID_SEARCH_VOLUME_COUNTRIES_SCHEME.default("Global").describe("Country code to analyze"),
     },
     async ({ reportId, country }) => {
         try {
