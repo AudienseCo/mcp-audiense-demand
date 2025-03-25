@@ -192,12 +192,35 @@ server.tool(
     },
     async ({ entityNames, userEmail }) => {
         try {
-            const data = await requestEntities(entityNames, userEmail);
+            // First check which entities exist
+            const checkResult = await checkEntities(entityNames);
 
+            // Filter out entities that don't exist
+            const nonExistentEntities = checkResult
+                .filter(entity => !entity.valid)
+                .map(entity => entity.q);
+
+            if (nonExistentEntities.length === 0) {
+                return {
+                    content: [
+                        {
+                            type: "text" as const,
+                            text: "All entities already exist in the system. No need to request them."
+                        }
+                    ],
+                };
+            }
+
+            // Only request entities that don't exist
+            const data = await requestEntities(nonExistentEntities, userEmail);
             const url = data.templateCopyFileUrl;
 
             return {
                 content: [
+                    {
+                        type: "text" as const,
+                        text: `Requesting ${nonExistentEntities.length} entities that don't exist in the system.`
+                    },
                     {
                         type: "text" as const,
                         text: "We will email you a confirmation when they are ready."
@@ -214,7 +237,7 @@ server.tool(
                 content: [
                     {
                         type: "text",
-                        text: `Failed to get report info: ${errorMessage}`,
+                        text: `Failed to request entities: ${errorMessage}`,
                     },
                 ],
             };
