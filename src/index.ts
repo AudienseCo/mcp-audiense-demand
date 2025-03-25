@@ -225,10 +225,11 @@ server.tool(
         reportId: z.string().describe("The ID of the report to get the summary for"),
         country: VALID_COUNTRIES_SCHEME.default("Weighted-Total").describe("The country to filter by."),
         offset: z.number().default(0).describe("Pagination offset"),
+        entityNames: z.array(z.string()).optional().describe("Optional array of entity names to filter by"),
     },
-    async ({ reportId, country, offset }) => {
+    async ({ reportId, country, offset, entityNames }) => {
         try {
-            const data = await getReportSummaryByChannels(reportId, country, offset);
+            const data = await getReportSummaryByChannels(reportId, country, offset, entityNames);
 
             return {
                 content: [
@@ -264,11 +265,12 @@ server.tool(
         reportId: z.string().describe("The ID of the report to get the summary for"),
         platform: VALID_PLATFORMS_SCHEME.default("all_platforms").describe("Platform name to analyze."),
         countries: z.array(VALID_COUNTRIES_SCHEME).describe("Array of country codes to analyze."),
-        offset: z.number().optional().describe("Pagination offset")
+        offset: z.number().optional().describe("Pagination offset"),
+        entityNames: z.array(z.string()).optional().describe("Optional array of entity names to filter by"),
     },
-    async ({ reportId, platform, countries, offset }) => {
+    async ({ reportId, platform, countries, offset, entityNames }) => {
         try {
-            const data = await getReportSummaryByCountries(reportId, platform, countries, offset);
+            const data = await getReportSummaryByCountries(reportId, platform, countries, offset, entityNames);
 
             return {
                 content: [
@@ -301,10 +303,11 @@ server.tool(
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
         country: VALID_SEARCH_VOLUME_COUNTRIES_SCHEME.default("Global").describe("Country code to analyze"),
+        entityNames: z.array(z.string()).optional().describe("Optional array of entity names to filter by"),
     },
-    async ({ reportId, country }) => {
+    async ({ reportId, country, entityNames }) => {
         try {
-            const data = await getYoutubeSearchVolumeSummary(reportId, country);
+            const data = await getYoutubeSearchVolumeSummary(reportId, country, entityNames);
 
             return {
                 content: [
@@ -337,10 +340,11 @@ server.tool(
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
         country: VALID_SEARCH_VOLUME_COUNTRIES_SCHEME.default("Global").describe("Country code to analyze"),
+        entityNames: z.array(z.string()).optional().describe("Optional array of entity names to filter by"),
     },
-    async ({ reportId, country }) => {
+    async ({ reportId, country, entityNames }) => {
         try {
-            const data = await getGoogleSearchVolumeSummary(reportId, country);
+            const data = await getGoogleSearchVolumeSummary(reportId, country, entityNames);
 
             return {
                 content: [

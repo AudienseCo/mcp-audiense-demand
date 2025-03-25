@@ -41,31 +41,59 @@ export async function checkEntities(entities: string[]) {
   return response;
 }
 
-export async function getYoutubeSearchVolumeSummary(reportId: string, country: string) {
-  const response = await makeAuthenticatedRequest<GetYoutubeSearchVolumeSummaryResponse>(`/reports/youtube-search-volume-summary?reportId=${reportId}&country=${country}`, {
+export async function getYoutubeSearchVolumeSummary(reportId: string, country: string, entityNames?: string[]) {
+  const queryParams = new URLSearchParams({
+    reportId,
+    country,
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+  });
+
+  const response = await makeAuthenticatedRequest<GetYoutubeSearchVolumeSummaryResponse>(`/reports/youtube-search-volume-summary?${queryParams.toString()}`, {
     method: 'GET',
   });
 
   return response;
 }
 
-export async function getGoogleSearchVolumeSummary(reportId: string, country: string) {
-  const response = await makeAuthenticatedRequest<GetGoogleSearchVolumeSummaryResponse>(`/reports/search-volume-summary?reportId=${reportId}&country=${country}`, {
+export async function getGoogleSearchVolumeSummary(reportId: string, country: string, entityNames?: string[]) {
+  const queryParams = new URLSearchParams({
+    reportId,
+    country,
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+  });
+
+  const response = await makeAuthenticatedRequest<GetGoogleSearchVolumeSummaryResponse>(`/reports/search-volume-summary?${queryParams.toString()}`, {
     method: 'GET',
   });
 
   return response;
 }
-export async function getReportSummaryByCountries(reportId: string, platform: string, countries: string[], offset?: number) {
-  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?reportId=${reportId}&platform=${platform}&countries=${JSON.stringify(countries)}&offset=${offset}`, {
+
+export async function getReportSummaryByCountries(reportId: string, platform: string, countries: string[], offset?: number, entityNames?: string[]) {
+  const queryParams = new URLSearchParams({
+    reportId,
+    platform,
+    countries: JSON.stringify(countries),
+    ...(offset !== undefined && { offset: offset.toString() }),
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+  });
+
+  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?${queryParams.toString()}`, {
     method: 'GET',
   });
 
   return response;
 }
 
-export async function getReportSummaryByChannels(reportId: string, country: string, offset?: number) {
-  const response = await makeAuthenticatedRequest<GetReportSummaryByChannelsResponse>(`/reports/summary-by-channels?reportId=${reportId}&country=${country}&offset=${offset}`, {
+export async function getReportSummaryByChannels(reportId: string, country: string, offset?: number, entityNames?: string[]) {
+  const queryParams = new URLSearchParams({
+    reportId,
+    country,
+    ...(offset !== undefined && { offset: offset.toString() }),
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+  });
+
+  const response = await makeAuthenticatedRequest<GetReportSummaryByChannelsResponse>(`/reports/summary-by-channels?${queryParams.toString()}`, {
     method: 'GET',
   });
 

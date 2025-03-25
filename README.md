@@ -62,6 +62,7 @@ If you're a developer, want to contribute, or need to understand the technical i
   - `reportId` _(string)_: The ID of the report to get the summary for
   - `country` _(string, default: "Weighted-Total")_: The country to filter by
   - `offset` _(number, default: 0)_: Pagination offset
+  - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
 
 - **Response**:
   - Channel-wise summary data in JSON format
@@ -71,10 +72,10 @@ If you're a developer, want to contribute, or need to understand the technical i
 
 - **Parameters**:
   - `reportId` _(string)_: The ID of the report to get the summary for
-  - `platform` _(string)_: Platform name to analyze
+  - `platform` _(string, default: "all_platforms")_: Platform name to analyze
   - `countries` _(array of strings)_: Array of country codes to analyze
-  - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
   - `offset` _(number, optional)_: Pagination offset
+  - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
 
 - **Response**:
   - Country-wise summary data in JSON format
@@ -84,11 +85,22 @@ If you're a developer, want to contribute, or need to understand the technical i
 
 - **Parameters**:
   - `reportId` _(string)_: The ID of the report to get the summary for
-  - `country` _(string)_: Country code to analyze
+  - `country` _(string, default: "Global")_: Country code to analyze
   - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
 
 - **Response**:
   - YouTube search volume data in JSON format
+
+### 📌 `get-google-search-volume-summary`
+**Description**: Gets Google search volume summary for entities in a report.
+
+- **Parameters**:
+  - `reportId` _(string)_: The ID of the report to get the summary for
+  - `country` _(string, default: "Global")_: Country code to analyze
+  - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
+
+- **Response**:
+  - Google search volume data in JSON format
 
 ### 📌 `check-entities`
 **Description**: Checks if entities exist and gets their details.
