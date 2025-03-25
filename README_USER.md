@@ -19,7 +19,7 @@ The installation is straightforward and only takes a few minutes. Choose your op
 2. Download the LTS version (18.x or higher).
 3. Run the installer package.
 4. Follow the installation wizard.
-5. Verify the installation. For this, Press Command + Space to open Spotlight Search, type "Terminal" and press Enter. Then, run the following commands.
+5. Verify the installation. For this, Press `Command + Space` to open Spotlight Search, type "Terminal" and press Enter. Then, run the following commands.
 
   ```bash
   node --version  # Should show v18.x.x or higher
@@ -41,7 +41,7 @@ If you see version numbers for both commands, Node.js is successfully installed!
 3. Run the installer
 4. Follow the installation wizard
 5. Ensure to check the box that says "Automatically install the necessary tools"
-6. Verify the installation. For this, Press Windows + R to open the Run dialog, type "cmd" and press Enter. Then, run the following commands.
+6. Verify the installation. For this, Press `Windows + R` to open the Run dialog, type "cmd" and press Enter. Then, run the following commands.
 
   ```bash
   node --version  # Should show v18.x.x or higher
@@ -65,7 +65,7 @@ To install Claude Desktop, follow these steps:
 
 Smithery is a platform to help developers find and ship language model extensions.
 
-Paste this command to automatically install the MCP server using Smithery with Claude Desktop Client:
+Copy this command and paste it into the terminal to automatically install the MCP server using Smithery with Claude Desktop Client:
 
 ```bash
   npx -y @smithery/cli@latest install @AudienseCo/mcp-audiense-demand --client claude
