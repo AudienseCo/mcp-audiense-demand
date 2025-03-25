@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
@@ -10,15 +11,6 @@ const server = new McpServer({
     version: "1.0.0",
     description: "Audiense Demand API MCP Server"
 });
-
-/**
- * Starts the MCP server and listens for incoming requests.
- */
-async function runServer() {
-    const transport = new StdioServerTransport();
-    await server.connect(transport);
-    console.error("Demand Public API MCP Server running on stdio");
-}
 
 /**
  * MCP Tool: Create a demand report
@@ -333,7 +325,14 @@ server.tool(
     }
 );
 
-
+/**
+ * Starts the MCP server and listens for incoming requests.
+ */
+async function runServer() {
+    const transport = new StdioServerTransport();
+    await server.connect(transport);
+    console.error("Audiense Demand MCP Server running on stdio");
+}
 
 runServer().catch((error) => {
     console.error("Fatal error in main():", error);
