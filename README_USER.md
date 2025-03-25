@@ -5,8 +5,6 @@ Welcome to the Audiense Demand User Guide! This guide is designed for business u
 - Get up and running quickly
 - Create and analyze demand reports
 - Track entity performance across different channels
-- Get insights about your target audience
-- Solve common issues you might encounter
 
 No programming experience is required - we'll walk you through each step with clear instructions.
 
