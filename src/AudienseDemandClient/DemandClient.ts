@@ -1,5 +1,5 @@
 import { AuthClient } from '../auth/AuthClient.js';
-import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse } from './types.js';
+import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse, DemandReport } from './types.js';
 
 export async function createDemandReport(title: string, entitiesReferences: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<CreateDemandReportResponse>('/demand-report', {
@@ -25,7 +25,7 @@ export async function getReports(paginationStart?: number, paginationEnd?: numbe
 }
 
 export async function getReport(id: string) {
-  const response = await makeAuthenticatedRequest<Report>(`/report?id=${id}`, {
+  const response = await makeAuthenticatedRequest<DemandReport>(`/report?id=${id}`, {
     method: 'GET',
   });
 

@@ -3,8 +3,7 @@ export type CreateDemandReportResponse = {
   availableEntities: number;
 }
 
-
-type Report = {
+export type DemandReport = {
   id: string;
   title: string;
   userId: string;
@@ -16,7 +15,8 @@ type Report = {
   userEmail: string;
   entityNames: string[];
 }
-type ListedReport = Omit<Report, 'entityNames'>;
+
+type ListedReport = Omit<DemandReport, 'entityNames'>;
 
 export type GetReportsResponse = {
   reports: ListedReport[];
