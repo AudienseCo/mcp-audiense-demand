@@ -82,6 +82,7 @@ async function makeAuthenticatedRequest<T>(endpoint: string, options: RequestIni
     ...options.headers,
     'Authorization': `Bearer ${token}`,
     'Content-Type': 'application/json',
+    'User-Agent': 'Audiense MCP Server',
   };
 
   const url = `https://demandpublicapi.socialbro.me${endpoint}`;
