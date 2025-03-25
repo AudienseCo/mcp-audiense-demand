@@ -9,10 +9,8 @@ This server, based on the [Model Context Protocol (MCP)](https://github.com/mode
 - [Install Node.js](#-install-nodejs)
 - [Install Claude Desktop](#-install-claude-desktop)
 - [Install MCP Server (Smithery)](#-install-mcp-server-smithery)
-- [Authentication](#-authentication)
-- [Available Tools](#️-available-tools)
+- [Start Using the Server](#-start-using-the-server)
 - [Common Issues](#-common-issues)
-- [License](#-license)
 
 This MCP server is designed to work with the Audiense Demand API and requires valid authentication credentials. Please note:
 
@@ -82,7 +80,6 @@ To install Claude Desktop, follow these steps:
 1. Download the latest version of Claude Desktop from the [official website](https://claude.ai/download).
 2. Run the installer package.
 3. Follow the installation wizard.
-4. Open Claude Desktop and log in with tech@audiense.com
 
 ---
 
@@ -98,114 +95,19 @@ Paste this command to automatically install the MCP server using Smithery with C
 
 ---
 
-## 🔐 Authentication
+## 🔐 Start Using the Server
 
-The server uses the Device Authorization Flow for authentication, which provides a secure way to authenticate without directly handling credentials. Here's how it works:
-
-1. When you first try to access any tool that requires authentication, the server will initiate the Device Authorization Flow.
-2. You'll receive:
-    - A verification URL (e.g., https://auth.audiense.com/activate).
-    - A user code to enter on that page.
-3. Visit the verification URL and enter the provided code.
-4. Complete the authentication process in your browser.
-5. The server will automatically handle the token management after successful authentication.
-6. You can continue using the MCP.
+1. Open Claude Desktop.
+2. Ask for Demand Report list.
+3. Authenticate with your Audiense Demand account following the steps given by the AI Client.
 
 ### Troubleshooting Authentication
+
 If you encounter authentication issues:
+
 1. Ensure you've completed the authentication process in your browser
 2. Try the operation again after a few seconds
 3. If issues persist, restart the authentication flow by trying the operation again
-
----
-
-## 🛠️ Available Tools
-
-### 📌 `create-demand-report`
-**Description**: Creates a new demand report for specified entities.
-
-- **Parameters**:
-    - `title` _(string)_: Title of the demand report
-    - `entitiesReferences` _(array of strings)_: Array of entity names for the report
-    - `userEmail` _(string)_: Email of the user creating the report
-
-- **Response**:
-    - Report creation details in JSON format
-
----
-
-### 📌 `get-reports`
-**Description**: Retrieves the list of demand reports owned by the authenticated user.
-
-- **Parameters**:
-    - `paginationStart` _(number, optional)_: Pagination start index
-    - `paginationEnd` _(number, optional)_: Pagination end index
-
-- **Response**:
-    - List of reports in JSON format
-
----
-
-### 📌 `get-report-info`
-**Description**: Fetches detailed information about a specific demand report.
-
-- **Parameters**:
-    - `reportId` _(string)_: The ID of the report to get information for
-
-- **Response**:
-    - Full report details in JSON format
-
----
-
-### 📌 `get-report-summary-by-channels`
-**Description**: Gets a summary of the report broken down by channels.
-
-- **Parameters**:
-    - `reportId` _(string)_: The ID of the report to get the summary for
-    - `country` _(string, default: "Weighted-Total")_: The country to filter by
-    - `offset` _(number, default: 0)_: Pagination offset
-
-- **Response**:
-    - Channel-wise summary data in JSON format
-
----
-
-### 📌 `get-report-summary-by-countries`
-**Description**: Gets a summary of the report broken down by countries.
-
-- **Parameters**:
-    - `reportId` _(string)_: The ID of the report to get the summary for
-    - `platform` _(string)_: Platform name to analyze
-    - `countries` _(array of strings)_: Array of country codes to analyze
-    - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
-    - `offset` _(number, optional)_: Pagination offset
-
-- **Response**:
-    - Country-wise summary data in JSON format
-
----
-
-### 📌 `get-youtube-search-volume-summary`
-**Description**: Gets YouTube search volume summary for entities in a report.
-
-- **Parameters**:
-    - `reportId` _(string)_: The ID of the report to get the summary for
-    - `country` _(string)_: Country code to analyze
-    - `entityNames` _(array of strings, optional)_: Optional array of entity names to filter by
-
-- **Response**:
-    - YouTube search volume data in JSON format
-
----
-
-### 📌 `check-entities`
-**Description**: Checks if entities exist and gets their details.
-
-- **Parameters**:
-    - `entities` _(array of strings)_: Array of entity names to check
-
-- **Response**:
-    - Entity status information in JSON format
 
 ---
 
@@ -216,7 +118,3 @@ If you encounter authentication issues:
 - **Check**: Run `node --version` to verify the installation
 
 For any other issues, please check the logs or [open an issue](https://github.com/AudienseCo/mcp-audiense-demand/issues) in our repository.
-
-## 📄 License
-
-This project is licensed under the Apache 2.0 License. See the LICENSE file for more details.
