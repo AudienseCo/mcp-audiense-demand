@@ -3,6 +3,20 @@
 
 This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Demand](https://www.audiense.com/products/demand-intelligence) account. It provides tools to create and analyze demand reports, track entity performance, and gain insights across different channels and countries.
 
+## 📑 Table of Contents
+- [Disclaimer](#️-disclaimer)
+- [Prerequisites](#-prerequisites)
+- [Installing Node.js](#-1-installing-nodejs)
+- [Project Setup](#-2-project-setup)
+- [Configuring the MCP Client](#️-3-configuring-the-mcp-compatible-client-example-with-claude-desktop)
+- [Available Tools](#️-available-tools)
+- [Troubleshooting](#️-troubleshooting)
+- [Viewing Logs](#-viewing-logs)
+- [Authentication](#-authentication)
+- [Development](#-development)
+- [Version Compatibility](#-version-compatibility)
+- [Common Issues](#-common-issues)
+- [License](#-license)
 
 This MCP server is designed to work with the Audiense Demand API and requires valid authentication credentials. Please note:
 
@@ -23,7 +37,7 @@ Before using this server, ensure you have:
 
 ---
 
-## 📥 Installing Node.js
+## 📥 1. Installing Node.js
 
 ### MacOS Installation
 
@@ -85,7 +99,31 @@ If you see version numbers for both commands, Node.js is successfully installed!
 
 ---
 
-## ⚙️ Configuring the MCP Compatible Client (example with Claude Desktop)
+## 🔧 2. Project Setup
+
+Before configuring Claude Desktop, you need to set up the project:
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/AudienseCo/mcp-audiense-demand.git
+   cd mcp-audiense-demand
+   ```
+
+2. Install project dependencies
+   ```bash
+   npm install
+   ```
+
+3. Build the project
+   ```bash
+   npm run build
+   ```
+
+   This will create the necessary files in the `build` directory that Claude Desktop needs to run the MCP server.
+
+---
+
+## ⚙️ 3. Configuring the MCP Compatible Client (example with Claude Desktop)
 
 1. Open the configuration file for Claude Desktop:
 
@@ -320,3 +358,27 @@ If you encounter authentication issues:
 1. Ensure you've completed the authentication process in your browser
 2. Try the operation again after a few seconds
 3. If issues persist, restart the authentication flow by trying the operation again
+
+## ❗ Common Issues
+
+### "command not found: node"
+- **Solution**: Make sure Node.js is properly installed and added to your PATH
+- **Check**: Run `node --version` to verify the installation
+
+### "Error: Cannot find module"
+- **Solution**: Make sure you've built the project and the path to index.js is correct
+- **Check**: Verify the build directory exists and contains index.js
+
+### "EACCES: permission denied"
+- **Solution**: Check file permissions or run with elevated privileges
+- **Check**: Ensure you have read/write permissions in the project directory
+
+### "Invalid configuration"
+- **Solution**: Verify your claude_desktop_config.json syntax
+- **Check**: Make sure all paths use correct separators for your OS (/ for MacOS/Linux, \\ for Windows)
+
+### Authentication Loop
+- **Solution**: Clear any cached tokens and restart the authentication process
+- **Check**: Verify your Audiense Demand account has the correct permissions
+
+For any other issues, please check the logs or [open an issue](https://github.com/AudienseCo/mcp-audiense-demand/issues) in our repository.
