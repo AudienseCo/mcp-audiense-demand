@@ -2,7 +2,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
-import { checkEntities, createDemandReport, getReport, getReports, getReportSummaryByChannels, getReportSummaryByCountries, getYoutubeSearchVolumeSummary } from './AudienseDemandClient/DemandClient.js';
+import { checkEntities, createDemandReport, getGoogleSearchVolumeSummary, getReport, getReports, getReportSummaryByChannels, getReportSummaryByCountries, getYoutubeSearchVolumeSummary } from './AudienseDemandClient/DemandClient.js';
 import { AuthClient } from './auth/AuthClient.js';
 import { VALID_COUNTRIES_SCHEME, VALID_PLATFORMS_SCHEME } from './schemes.js';
 
@@ -321,6 +321,42 @@ server.tool(
                     {
                         type: "text",
                         text: `Failed to get YouTube search volume summary: ${errorMessage}`,
+                    },
+                ],
+            };
+        }
+    }
+);
+
+/**
+ * MCP Tool: Get Google search volume summary
+ */
+server.tool(
+    "get-google-search-volume-summary",
+    "Get Google search volume summary for entities in a report",
+    {
+        reportId: z.string().describe("The ID of the report to get the summary for"),
+        country: VALID_COUNTRIES_SCHEME.describe("Country code to analyze"),
+    },
+    async ({ reportId, country }) => {
+        try {
+            const data = await getGoogleSearchVolumeSummary(reportId, country);
+
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: JSON.stringify(data, null, 2)
+                    },
+                ],
+            };
+        } catch (error: unknown) {
+            const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+            return {
+                content: [
+                    {
+                        type: "text",
+                        text: `Failed to get Google search volume summary: ${errorMessage}`,
                     },
                 ],
             };

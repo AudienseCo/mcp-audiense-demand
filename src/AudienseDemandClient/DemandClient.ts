@@ -1,5 +1,5 @@
 import { AuthClient } from '../auth/AuthClient.js';
-import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse, DemandReport } from './types.js';
+import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse, DemandReport, GetGoogleSearchVolumeSummaryResponse } from './types.js';
 
 export async function createDemandReport(title: string, entitiesReferences: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<CreateDemandReportResponse>('/demand-report', {
@@ -49,6 +49,13 @@ export async function getYoutubeSearchVolumeSummary(reportId: string, country: s
   return response;
 }
 
+export async function getGoogleSearchVolumeSummary(reportId: string, country: string) {
+  const response = await makeAuthenticatedRequest<GetGoogleSearchVolumeSummaryResponse>(`/reports/search-volume-summary?reportId=${reportId}&country=${country}`, {
+    method: 'GET',
+  });
+
+  return response;
+}
 export async function getReportSummaryByCountries(reportId: string, platform: string, countries: string[], offset?: number) {
   const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?reportId=${reportId}&platform=${platform}&countries=${JSON.stringify(countries)}&offset=${offset}`, {
     method: 'GET',

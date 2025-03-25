@@ -79,6 +79,17 @@ export type GetYoutubeSearchVolumeSummaryResponse = {
   }[];
 }
 
+export type GetGoogleSearchVolumeSummaryResponse = {
+  initialDate: {
+    year: number;
+    month: number;
+  };
+  entities: {
+    name: string;
+    volumes: number[];
+  }[];
+}
+
 export type GetReportSummaryByCountriesResponse = {
   entitiesSummary: {
     entity: string;
