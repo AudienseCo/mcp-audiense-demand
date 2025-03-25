@@ -50,7 +50,7 @@ export async function getYoutubeSearchVolumeSummary(reportId: string, country: s
 }
 
 export async function getReportSummaryByCountries(reportId: string, platform: string, countries: string[], offset?: number) {
-  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?reportId=${reportId}&platform=${platform}&countries=${countries}&offset=${offset}`, {
+  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?reportId=${reportId}&platform=${platform}&countries=${JSON.stringify(countries)}&offset=${offset}`, {
     method: 'GET',
   });
 

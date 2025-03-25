@@ -4,6 +4,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import { checkEntities, createDemandReport, getReport, getReports, getReportSummaryByChannels, getReportSummaryByCountries, getYoutubeSearchVolumeSummary } from './AudienseDemandClient/DemandClient.js';
 import { AuthClient } from './auth/AuthClient.js';
+import { VALID_COUNTRIES_SCHEME, VALID_PLATFORMS_SCHEME } from './schemes.js';
 
 // MCP Server instance
 const server = new McpServer({
@@ -222,7 +223,7 @@ server.tool(
     "Get a summary of the report broken down by channels",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
-        country: z.string().default("Weighted-Total").describe("The country to filter by (defaults to Weighted-Total)"),
+        country: VALID_COUNTRIES_SCHEME.default("Weighted-Total").describe("The country to filter by."),
         offset: z.number().default(0).describe("Pagination offset"),
     },
     async ({ reportId, country, offset }) => {
@@ -251,6 +252,8 @@ server.tool(
     }
 );
 
+
+
 /**
  * MCP Tool: Get report summary by countries
  */
@@ -259,8 +262,8 @@ server.tool(
     "Get a summary of the report broken down by countries",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
-        platform: z.string().describe("Platform name to analyze"),
-        countries: z.array(z.string()).describe("Array of country codes to analyze"),
+        platform: VALID_PLATFORMS_SCHEME.default("all_platforms").describe("Platform name to analyze."),
+        countries: z.array(VALID_COUNTRIES_SCHEME).describe("Array of country codes to analyze."),
         offset: z.number().optional().describe("Pagination offset")
     },
     async ({ reportId, platform, countries, offset }) => {
@@ -297,7 +300,7 @@ server.tool(
     "Get YouTube search volume summary for entities in a report",
     {
         reportId: z.string().describe("The ID of the report to get the summary for"),
-        country: z.string().describe("Country code to analyze"),
+        country: VALID_COUNTRIES_SCHEME.describe("Country code to analyze"),
     },
     async ({ reportId, country }) => {
         try {
