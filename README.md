@@ -85,7 +85,7 @@ If you see version numbers for both commands, Node.js is successfully installed!
 
 ---
 
-## ⚙️ Configuring Claude Desktop
+## ⚙️ Configuring the MCP Compatible Client (example with Claude Desktop)
 
 1. Open the configuration file for Claude Desktop:
 
@@ -100,10 +100,11 @@ If you see version numbers for both commands, Node.js is successfully installed!
 
 2. Add or update the following configuration:
 
+   If Node.js is in your PATH (recommended):
    ```json
    "mcpServers": {
      "audiense-demand": {
-       "command": "/opt/homebrew/bin/node",
+       "command": "node",
        "args": [
          "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
        ],
@@ -111,7 +112,60 @@ If you see version numbers for both commands, Node.js is successfully installed!
      }
    }
    ```
-3. Save the file and restart Claude Desktop.
+
+   If Node.js is not in your PATH, you'll need to use the full path to node. To find it:
+
+  - **MacOS:**
+   ```bash
+   # Find Node.js path
+   which node
+   # Example output: /opt/homebrew/bin/node
+   ```
+
+  - **Windows:**
+   ```powershell
+   # Find Node.js path
+   where node
+   # Example output: C:\Program Files\nodejs\node.exe
+   ```
+
+   Then use the full path in your configuration:
+   ```json
+   "mcpServers": {
+     "audiense-demand": {
+       "command": "/opt/homebrew/bin/node",  // MacOS example
+       // or "C:\\Program Files\\nodejs\\node.exe" for Windows
+       "args": [
+         "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
+       ],
+       "env": {}
+     }
+   }
+   ```
+
+3. Replace `/ABSOLUTE/PATH/TO/YOUR/build/index.js` with the actual path to your index.js file:
+
+  - **MacOS:**
+   ```bash
+   # Navigate to your project directory
+   cd /path/to/mcp-audiense-demand
+
+   # Get the absolute path to index.js
+   echo "$(pwd)/build/index.js"
+   ```
+
+  - **Windows:**
+   ```powershell
+   # Navigate to your project directory
+   cd C:\path\to\mcp-audiense-demand
+
+   # Get the absolute path to index.js
+   $pwd.Path + "\build\index.js"
+   ```
+
+   Copy the output path and use it in your configuration.
+
+4. Save the file and restart Claude Desktop.
 
 ## 🛠️ Available Tools
 
