@@ -10,9 +10,6 @@ This MCP server is designed to work with the Audiense Demand API and requires va
 
 - This is a Work In Progress project, so the configuration might vary in the short term, as well as the project's own existence.
 - This server is intended for use with official Audiense Demand accounts only
-- The Auth0 Client ID must be from the Demand App Frontend (other client IDs are not authorized)
-- Access and refresh tokens contain sensitive information and should be kept secure
-- API usage is subject to Audiense's terms of service and rate limits
 
 ---
 
@@ -21,9 +18,70 @@ This MCP server is designed to work with the Audiense Demand API and requires va
 Before using this server, ensure you have:
 
 - **Node.js** (v18 or higher)
-- **Claude Desktop App**
 - **Audiense Demand Account** authorized to use the Demand product.
-- **Auth0 Access and Refresh Tokens**
+- **An MCP compatible client such as Claude Desktop App**
+
+---
+
+## 📥 Installing Node.js
+
+### MacOS Installation
+
+1. **Using Homebrew**:
+   ```bash
+   1. Install Homebrew if you have not already
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+   2. Install Node.js using the proper command:
+   # For Intel based Mac systems you will need to execute the command this way
+
+   brew install node@22
+
+   # For Apple Silicon Mac systems (M1, M2, ...) you will need to execute the command this way
+   arch -arm64 brew install node@22
+
+   3. Add Node.js to your PATH
+   # Choose the appropriate command for your shell:
+   # Note: If you are not sure which shell you are using, run:
+   echo $SHELL
+
+   # For zsh (default in newer MacOS):
+   echo 'export PATH="/opt/homebrew/opt/node@22/bin:$PATH"' >> ~/.zshrc
+   source ~/.zshrc
+
+   # For bash:
+   echo 'export PATH="/opt/homebrew/opt/node@22/bin:$PATH"' >> ~/.bash_profile
+   source ~/.bash_profile
+
+   # For fish:
+   fish_add_path /opt/homebrew/opt/node@22/bin
+
+   ```
+
+2. **Using the Official Installer**:
+   - Visit [Node.js official website](https://nodejs.org/)
+   - Download the LTS version (18.x or higher)
+   - Run the installer package
+   - Follow the installation wizard
+
+### Windows Installation
+
+1. **Using the Official Installer (Recommended)**:
+   - Visit [Node.js official website](https://nodejs.org/)
+   - Download the LTS version (18.x or higher) Windows Installer (.msi)
+   - Run the installer
+   - Follow the installation wizard
+   - Ensure to check the box that says "Automatically install the necessary tools"
+
+### Verify Installation
+
+After installation, verify Node.js is properly installed by running:
+```bash
+node --version  # Should show v18.x.x or higher
+npm --version   # Should show the npm version
+```
+
+If you see version numbers for both commands, Node.js is successfully installed!
 
 ---
 
@@ -49,24 +107,10 @@ Before using this server, ensure you have:
        "args": [
          "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
        ],
-       "env": {
-         "AUTH0_DOMAIN": "auth.audiense.com",
-         "AUTH0_CLIENT_ID": "your-client-id",
-         "API_BASE_URL": "https://demandpublicapi.socialbro.me",
-         "INITIAL_ACCESS_TOKEN": "your.initial.access.token",
-         "INITIAL_REFRESH_TOKEN": "your.initial.refresh.token"
-       }
+       "env": {}
      }
    }
    ```
-
-   Replace the placeholders with your actual credentials:
-   - `AUTH0_DOMAIN`: Your Auth0 tenant domain (e.g., "auth.audiense.com")
-   - `AUTH0_CLIENT_ID`: Your Auth0 application client ID (currently only Demand App Frontend ClientID is authorized on Demand Public API)
-   - `API_BASE_URL`: The base URL for the Audiense Demand API (usually "https://demandpublicapi.socialbro.me")
-   - `INITIAL_ACCESS_TOKEN`: Your initial Auth0 access token
-   - `INITIAL_REFRESH_TOKEN`: Your initial Auth0 refresh token
-
 3. Save the file and restart Claude Desktop.
 
 ## 🛠️ Available Tools
@@ -148,7 +192,7 @@ Before using this server, ensure you have:
 
 ---
 
-### 📌 `check-entity-status`
+### 📌 `check-entities`
 **Description**: Checks if entities exist and gets their details.
 
 - **Parameters**:
@@ -158,15 +202,6 @@ Before using this server, ensure you have:
   - Entity status information in JSON format
 
 ---
-
-### 📌 `get-entities`
-**Description**: Searches for entities by name or reference.
-
-- **Parameters**:
-  - `nameOrReference` _(string)_: Name or reference to search for
-
-- **Response**:
-  - Matching entities in JSON format
 
 ## 🛠️ Troubleshooting
 
@@ -198,37 +233,36 @@ tail -n 20 -f ~/Library/Logs/Claude/mcp*.log
 Get-Content -Path "$env:AppData\Claude\Logs\mcp*.log" -Wait -Tail 20
 ```
 
-## 🔐 Security Considerations
-
-- Keep API credentials secure – never expose them in public repositories.
-- Use environment variables to manage sensitive data.
-
 ## 📄 License
 
 This project is licensed under the Apache 2.0 License. See the LICENSE file for more details.
 
 ## 🔐 Authentication
 
-The server supports this authentication method:
+The server uses the Device Authorization Flow for authentication, which provides a secure way to authenticate without directly handling credentials. Here's how it works:
 
+1. When you first try to access any tool that requires authentication, the server will initiate the Device Authorization Flow.
+2. You'll receive:
+   - A verification URL (e.g., https://auth.audiense.com/activate).
+   - A user code to enter on that page.
+3. Visit the verification URL and enter the provided code.
+4. Complete the authentication process in your browser.
+5. The server will automatically handle the token management after successful authentication.
+6. You can continue using the MCP.
 
-**Auto-refresh Authentication**
-  ```json
-  "env": {
-    "AUTH0_DOMAIN": "auth.audiense.com",
-    "AUTH0_CLIENT_ID": "your-client-id",
-    "INITIAL_ACCESS_TOKEN": "your.initial.token",
-    "INITIAL_REFRESH_TOKEN": "your.initial.refresh.token"
-  }
-  ```
-  This method will:
-  - Use the initial token from API_TOKEN
-  - Automatically parse token expiration
-  - Attempt to refresh tokens before they expire
-  - Fall back to environment token if refresh fails
+This flow is more secure because:
+- No need to handle or store credentials directly
+- Tokens are managed automatically
+- The authentication process happens in your browser
+- The user code expires after 15 minutes for security
 
-The server will:
-1. Use cached token if valid
-2. Try to refresh token if expired
-3. Fall back to environment token if refresh fails
-4. Parse JWT expiration for proper token lifecycle management
+### Token Management
+- Access tokens are automatically refreshed when needed
+- No manual token management required
+- Secure token storage handled by the server
+
+### Troubleshooting Authentication
+If you encounter authentication issues:
+1. Ensure you've completed the authentication process in your browser
+2. Try the operation again after a few seconds
+3. If issues persist, restart the authentication flow by trying the operation again
