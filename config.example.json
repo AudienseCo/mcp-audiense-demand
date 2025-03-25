@@ -1,18 +1,11 @@
 {
   "mcpServers": {
-    "demand-public-api": {
+    "audiense-demand": {
       "command": "/opt/homebrew/bin/node",
       "args": [
         "/path/to/your/build/index.js"
       ],
-      "env": {
-        "AUTH0_DOMAIN": "your-tenant.auth0.com",
-        "AUTH0_CLIENT_ID": "your-client-id",
-        "AUTH0_CLIENT_SECRET": "your-client-secret",
-        "AUTH0_USERNAME": "your-auth0-username",
-        "AUTH0_PASSWORD": "your-auth0-password",
-        "API_BASE_URL": "https://demandpublicapi.socialbro.me"
-      }
+      "env": {}
     }
   }
 }

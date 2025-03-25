@@ -29,10 +29,5 @@ COPY --from=builder /app/build ./build
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
 
-# Environment variables (should be replaced with actual credentials in production)
-ENV AUDIENSE_CLIENT_ID=your_client_id_here
-ENV AUDIENSE_CLIENT_SECRET=your_client_secret_here
-ENV TWITTER_BEARER_TOKEN=your_token_here
-
 # Run the application
 CMD ["node", "build/index.js"]
