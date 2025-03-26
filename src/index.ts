@@ -115,11 +115,11 @@ server.tool(
 );
 
 /**
- * MCP Tool: Get user reports
+ * MCP Tool: Get demand reports
  */
 server.tool(
-  'get-reports',
-  'Get reports for the authorized user',
+  'get-demand-reports',
+  'Get demand reports for the authorized user',
   {
     paginationStart: z.number().optional().describe('Pagination start index'),
     paginationEnd: z.number().optional().describe('Pagination end index'),
@@ -151,11 +151,11 @@ server.tool(
 );
 
 /**
- * MCP Tool: Get report info
+ * MCP Tool: Get demand report info
  */
 server.tool(
-  'get-report-info',
-  'Get detailed information about a specific report',
+  'get-demand-report-info',
+  'Get detailed information about a specific demand report',
   {
     reportId: z.string().describe('The ID of the report to get information for'),
   },
@@ -291,8 +291,8 @@ server.tool(
  * MCP Tool: Get report summary by channels
  */
 server.tool(
-  'get-report-summary-by-channels',
-  'Get a summary of the report broken down by channels',
+  'get-demand-report-summary-by-channels',
+  'Get a summary of the demand report broken down by channels',
   {
     reportId: z.string().describe('The ID of the report to get the summary for'),
     country: VALID_COUNTRIES_SCHEME.default('Weighted-Total').describe('The country to filter by.'),
@@ -329,8 +329,8 @@ server.tool(
  * MCP Tool: Get report summary by countries
  */
 server.tool(
-  'get-report-summary-by-countries',
-  'Get a summary of the report broken down by countries',
+  'get-demand-report-summary-by-countries',
+  'Get a summary of the demand report broken down by countries',
   {
     reportId: z.string().describe('The ID of the report to get the summary for'),
     platform: VALID_PLATFORMS_SCHEME.default('all_platforms').describe('Platform name to analyze.'),
@@ -369,7 +369,7 @@ server.tool(
  */
 server.tool(
   'get-youtube-search-volume-summary',
-  'Get YouTube search volume summary for entities in a report',
+  'Get YouTube search volume summary for entities in a demand report',
   {
     reportId: z.string().describe('The ID of the report to get the summary for'),
     country: VALID_SEARCH_VOLUME_COUNTRIES_SCHEME.default('Global').describe('Country code to analyze'),
@@ -406,7 +406,7 @@ server.tool(
  */
 server.tool(
   'get-google-search-volume-summary',
-  'Get Google search volume summary for entities in a report',
+  'Get Google search volume summary for entities in a demand report',
   {
     reportId: z.string().describe('The ID of the report to get the summary for'),
     country: VALID_SEARCH_VOLUME_COUNTRIES_SCHEME.default('Global').describe('Country code to analyze'),

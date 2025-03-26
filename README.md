@@ -36,7 +36,7 @@ If you're a developer, want to contribute, or need to understand the technical i
 - **Response**:
   - Report creation details in JSON format
 
-### 📌 `get-reports`
+### 📌 `get-demand-reports`
 **Description**: Retrieves the list of demand reports owned by the authenticated user.
 
 - **Parameters**:
@@ -46,7 +46,7 @@ If you're a developer, want to contribute, or need to understand the technical i
 - **Response**:
   - List of reports in JSON format
 
-### 📌 `get-report-info`
+### 📌 `get-demand-report-info`
 **Description**: Fetches detailed information about a specific demand report.
 
 - **Parameters**:
@@ -55,7 +55,7 @@ If you're a developer, want to contribute, or need to understand the technical i
 - **Response**:
   - Full report details in JSON format
 
-### 📌 `get-report-summary-by-channels`
+### 📌 `get-demand-report-summary-by-channels`
 **Description**: Gets a summary of the report broken down by channels.
 
 - **Parameters**:
@@ -67,7 +67,7 @@ If you're a developer, want to contribute, or need to understand the technical i
 - **Response**:
   - Channel-wise summary data in JSON format
 
-### 📌 `get-report-summary-by-countries`
+### 📌 `get-demand-report-summary-by-countries`
 **Description**: Gets a summary of the report broken down by countries.
 
 - **Parameters**:
