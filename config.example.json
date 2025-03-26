@@ -2,9 +2,7 @@
   "mcpServers": {
     "audiense-demand": {
       "command": "/opt/homebrew/bin/node",
-      "args": [
-        "/path/to/your/build/index.js"
-      ],
+      "args": ["/path/to/your/build/index.js"],
       "env": {}
     }
   }

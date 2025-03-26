@@ -12,9 +12,9 @@ interface DeviceCodeResponse {
   expires_in: number;
 }
 
-const AUTH0_DOMAIN = "auth.audiense.com";
-const AUTH0_CLIENT_ID = "CCpWa7nn17ETsbxHI6kncIIiUiy7S5f3";
-const AUTH0_AUDIENCE = "ebwYT5kCCQ2ty2OVIRErgv01xhW3tc9c";
+const AUTH0_DOMAIN = 'auth.audiense.com';
+const AUTH0_CLIENT_ID = 'CCpWa7nn17ETsbxHI6kncIIiUiy7S5f3';
+const AUTH0_AUDIENCE = 'ebwYT5kCCQ2ty2OVIRErgv01xhW3tc9c';
 
 export class AuthClient {
   private static instance: AuthClient | null = null;
@@ -48,7 +48,6 @@ export class AuthClient {
     return this.getAccessTokenFromCache();
   }
 
-
   private resetTokenCache() {
     this.tokenCache = null;
   }
@@ -58,13 +57,13 @@ export class AuthClient {
       const response = await fetch(`https://${AUTH0_DOMAIN}/oauth/token`, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           grant_type: 'urn:ietf:params:oauth:grant-type:device_code',
           client_id: AUTH0_CLIENT_ID,
-          device_code: this.getDeviceCodeFromCache()
-        })
+          device_code: this.getDeviceCodeFromCache(),
+        }),
       });
 
       if (!response.ok) {
@@ -72,7 +71,7 @@ export class AuthClient {
         throw new Error(`Save access token with device code failed: ${error}`);
       }
 
-      const data = await response.json() as {
+      const data = (await response.json()) as {
         access_token: string;
         refresh_token: string;
         expires_in: number;
@@ -81,7 +80,7 @@ export class AuthClient {
       this.tokenCache = {
         access_token: data.access_token,
         refresh_token: data.refresh_token,
-        expires_at: Date.now() + (data.expires_in * 1000) - 60000 // Subtract 1 minute for safety
+        expires_at: Date.now() + data.expires_in * 1000 - 60000, // Subtract 1 minute for safety
       };
     } catch (error) {
       throw error;
@@ -93,13 +92,13 @@ export class AuthClient {
       const response = await fetch(`https://${AUTH0_DOMAIN}/oauth/token`, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           grant_type: 'refresh_token',
           client_id: AUTH0_CLIENT_ID,
-          refresh_token: this.getRefreshTokenFromCache()
-        })
+          refresh_token: this.getRefreshTokenFromCache(),
+        }),
       });
 
       if (!response.ok) {
@@ -107,7 +106,7 @@ export class AuthClient {
         throw new Error(`Auth0 token refresh failed: ${error}`);
       }
 
-      const data = await response.json() as {
+      const data = (await response.json()) as {
         access_token: string;
         refresh_token: string;
         expires_in: number;
@@ -116,7 +115,7 @@ export class AuthClient {
       this.tokenCache = {
         access_token: data.access_token,
         refresh_token: data.refresh_token,
-        expires_at: Date.now() + (data.expires_in * 1000) - 60000 // Subtract 1 minute for safety
+        expires_at: Date.now() + data.expires_in * 1000 - 60000, // Subtract 1 minute for safety
       };
     } catch (error) {
       console.error(`[AuthClient] Error refreshing token:`, error);
@@ -179,7 +178,7 @@ export class AuthClient {
         throw new Error(`Device code request failed: ${error}`);
       }
 
-      const data: DeviceCodeResponse = await response.json() as {
+      const data: DeviceCodeResponse = (await response.json()) as {
         device_code: string;
         user_code: string;
         verification_uri: string;
@@ -196,7 +195,4 @@ export class AuthClient {
       throw error;
     }
   }
-
-
-
 }

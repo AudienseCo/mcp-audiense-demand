@@ -1,5 +1,15 @@
 import { AuthClient } from '../auth/AuthClient.js';
-import { CheckEntitiesResponse, CreateDemandReportResponse, GetReportsResponse, GetReportSummaryByChannelsResponse, GetReportSummaryByCountriesResponse, GetYoutubeSearchVolumeSummaryResponse, DemandReport, GetGoogleSearchVolumeSummaryResponse, RequestEntitiesResponse } from './types.js';
+import {
+  CheckEntitiesResponse,
+  CreateDemandReportResponse,
+  DemandReport,
+  GetGoogleSearchVolumeSummaryResponse,
+  GetReportSummaryByChannelsResponse,
+  GetReportSummaryByCountriesResponse,
+  GetReportsResponse,
+  GetYoutubeSearchVolumeSummaryResponse,
+  RequestEntitiesResponse,
+} from './types.js';
 
 export async function createDemandReport(title: string, entitiesReferences: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<CreateDemandReportResponse>('/demand-report', {
@@ -13,7 +23,7 @@ export async function createDemandReport(title: string, entitiesReferences: stri
 export async function getReports(paginationStart?: number, paginationEnd?: number) {
   const queryParams = new URLSearchParams({
     ...(paginationStart !== undefined && { paginationStart: paginationStart.toString() }),
-    ...(paginationEnd !== undefined && { paginationEnd: paginationEnd.toString() })
+    ...(paginationEnd !== undefined && { paginationEnd: paginationEnd.toString() }),
   });
   const endpoint = queryParams.toString() ? `/reports?${queryParams.toString()}` : '/reports';
 
@@ -35,7 +45,7 @@ export async function getReport(id: string) {
 export async function checkEntities(entities: string[]) {
   const response = await makeAuthenticatedRequest<CheckEntitiesResponse>('/entity/check', {
     method: 'POST',
-    body: JSON.stringify({ entities })
+    body: JSON.stringify({ entities }),
   });
 
   return response;
@@ -45,12 +55,15 @@ export async function getYoutubeSearchVolumeSummary(reportId: string, country: s
   const queryParams = new URLSearchParams({
     reportId,
     country,
-    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) }),
   });
 
-  const response = await makeAuthenticatedRequest<GetYoutubeSearchVolumeSummaryResponse>(`/reports/youtube-search-volume-summary?${queryParams.toString()}`, {
-    method: 'GET',
-  });
+  const response = await makeAuthenticatedRequest<GetYoutubeSearchVolumeSummaryResponse>(
+    `/reports/youtube-search-volume-summary?${queryParams.toString()}`,
+    {
+      method: 'GET',
+    },
+  );
 
   return response;
 }
@@ -59,43 +72,63 @@ export async function getGoogleSearchVolumeSummary(reportId: string, country: st
   const queryParams = new URLSearchParams({
     reportId,
     country,
-    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) }),
   });
 
-  const response = await makeAuthenticatedRequest<GetGoogleSearchVolumeSummaryResponse>(`/reports/search-volume-summary?${queryParams.toString()}`, {
-    method: 'GET',
-  });
+  const response = await makeAuthenticatedRequest<GetGoogleSearchVolumeSummaryResponse>(
+    `/reports/search-volume-summary?${queryParams.toString()}`,
+    {
+      method: 'GET',
+    },
+  );
 
   return response;
 }
 
-export async function getReportSummaryByCountries(reportId: string, platform: string, countries: string[], offset?: number, entityNames?: string[]) {
+export async function getReportSummaryByCountries(
+  reportId: string,
+  platform: string,
+  countries: string[],
+  offset?: number,
+  entityNames?: string[],
+) {
   const queryParams = new URLSearchParams({
     reportId,
     platform,
     countries: JSON.stringify(countries),
     ...(offset !== undefined && { offset: offset.toString() }),
-    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) }),
   });
 
-  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(`/reports/summary-by-countries?${queryParams.toString()}`, {
-    method: 'GET',
-  });
+  const response = await makeAuthenticatedRequest<GetReportSummaryByCountriesResponse>(
+    `/reports/summary-by-countries?${queryParams.toString()}`,
+    {
+      method: 'GET',
+    },
+  );
 
   return response;
 }
 
-export async function getReportSummaryByChannels(reportId: string, country: string, offset?: number, entityNames?: string[]) {
+export async function getReportSummaryByChannels(
+  reportId: string,
+  country: string,
+  offset?: number,
+  entityNames?: string[],
+) {
   const queryParams = new URLSearchParams({
     reportId,
     country,
     ...(offset !== undefined && { offset: offset.toString() }),
-    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) })
+    ...(entityNames !== undefined && { entityNames: JSON.stringify(entityNames) }),
   });
 
-  const response = await makeAuthenticatedRequest<GetReportSummaryByChannelsResponse>(`/reports/summary-by-channels?${queryParams.toString()}`, {
-    method: 'GET',
-  });
+  const response = await makeAuthenticatedRequest<GetReportSummaryByChannelsResponse>(
+    `/reports/summary-by-channels?${queryParams.toString()}`,
+    {
+      method: 'GET',
+    },
+  );
 
   return response;
 }
@@ -103,7 +136,7 @@ export async function getReportSummaryByChannels(reportId: string, country: stri
 export async function requestEntities(entityNames: string[], userEmail: string) {
   const response = await makeAuthenticatedRequest<RequestEntitiesResponse>('/entity/request', {
     method: 'POST',
-    body: JSON.stringify({ entityNames, userEmail })
+    body: JSON.stringify({ entityNames, userEmail }),
   });
 
   return response;
@@ -117,7 +150,7 @@ async function makeAuthenticatedRequest<T>(endpoint: string, options: RequestIni
 
   const headers = {
     ...options.headers,
-    'Authorization': `Bearer ${token}`,
+    Authorization: `Bearer ${token}`,
     'Content-Type': 'application/json',
     'User-Agent': 'Audiense MCP Server',
   };

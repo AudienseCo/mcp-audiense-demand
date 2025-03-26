@@ -1,7 +1,7 @@
 export type CreateDemandReportResponse = {
   availableReports: number;
   availableEntities: number;
-}
+};
 
 export type DemandReport = {
   id: string;
@@ -14,13 +14,13 @@ export type DemandReport = {
   status: string;
   userEmail: string;
   entityNames: string[];
-}
+};
 
 type ListedReport = Omit<DemandReport, 'entityNames'>;
 
 export type GetReportsResponse = {
   reports: ListedReport[];
-}
+};
 
 export type ReportSummaryByChannelsResponse = {
   entitiesSummary: {
@@ -59,7 +59,7 @@ export type ReportSummaryByChannelsResponse = {
       absolute: number;
     };
   }[];
-}
+};
 
 export type CheckEntitiesResponse = Array<{
   q: string;
@@ -77,7 +77,7 @@ export type GetYoutubeSearchVolumeSummaryResponse = {
     name: string;
     volumes: number[];
   }[];
-}
+};
 
 export type GetGoogleSearchVolumeSummaryResponse = {
   initialDate: {
@@ -88,7 +88,7 @@ export type GetGoogleSearchVolumeSummaryResponse = {
     name: string;
     volumes: number[];
   }[];
-}
+};
 
 export type GetReportSummaryByCountriesResponse = {
   entitiesSummary: {
@@ -101,7 +101,7 @@ export type GetReportSummaryByCountriesResponse = {
       absolute: number;
     }[];
   }[];
-}
+};
 
 export type GetReportSummaryByChannelsResponse = {
   entitiesSummary: {
@@ -140,8 +140,8 @@ export type GetReportSummaryByChannelsResponse = {
       absolute: number;
     };
   }[];
-}
+};
 
 export type RequestEntitiesResponse = {
   templateCopyFileUrl: string;
-}
+};
