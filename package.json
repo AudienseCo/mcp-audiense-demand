@@ -7,14 +7,11 @@
   },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "lint": "npx @biomejs/biome check --write",
     "prepare": "npm run build",
     "test": "jest"
   },
-  "files": [
-    "build",
-    "src",
-    "tsconfig.json"
-  ],
+  "files": ["build", "src", "tsconfig.json"],
   "keywords": [],
   "author": "",
   "license": "APACHE 2.0",
@@ -27,6 +24,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@types/base-64": "^1.0.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.12.0",
