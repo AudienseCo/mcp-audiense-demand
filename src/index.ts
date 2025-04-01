@@ -24,6 +24,15 @@ const server = new McpServer({
 });
 
 /**
+ * Starts the MCP server and listens for incoming requests.
+ */
+async function runServer() {
+  const transport = new StdioServerTransport();
+  await server.connect(transport);
+  console.error('Audiense Demand MCP Server running on stdio');
+}
+
+/**
  * MCP Tool: Initiate Device Authorization Flow
  */
 server.tool(
@@ -437,15 +446,6 @@ server.tool(
     }
   },
 );
-
-/**
- * Starts the MCP server and listens for incoming requests.
- */
-async function runServer() {
-  const transport = new StdioServerTransport();
-  await server.connect(transport);
-  console.error('Audiense Demand MCP Server running on stdio');
-}
 
 runServer().catch(error => {
   console.error('Fatal error in main():', error);
