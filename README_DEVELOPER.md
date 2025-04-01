@@ -11,6 +11,7 @@ Welcome to the technical documentation for the Audiense Demand MCP Server. This 
 This guide assumes familiarity with Node.js, TypeScript, and general software development concepts. We'll cover everything from local development setup to production deployment considerations.
 
 ## 📑 Table of Contents
+
 - [Prerequisites](#-prerequisites)
   - [Installing Node.js](#-1-installing-nodejs)
   - [Project Setup](#-2-project-setup)
@@ -34,6 +35,7 @@ Before using this server, ensure you have:
 #### MacOS Installation
 
 1. **Using Homebrew**:
+
    ```bash
    1. Install Homebrew if you have not already
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -82,6 +84,7 @@ Before using this server, ensure you have:
 #### Verify Installation
 
 After installation, verify Node.js is properly installed by running:
+
 ```bash
 node --version  # Should show v18.x.x or higher
 npm --version   # Should show the npm version
@@ -94,17 +97,20 @@ If you see version numbers for both commands, Node.js is successfully installed!
 Before configuring Claude Desktop, you need to set up the project:
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/AudienseCo/mcp-audiense-demand.git
    cd mcp-audiense-demand
    ```
 
 2. Install project dependencies
+
    ```bash
    npm install
    ```
 
 3. Build the project
+
    ```bash
    npm run build
    ```
@@ -127,6 +133,7 @@ Before configuring Claude Desktop, you need to set up the project:
 2. Add or update the following configuration:
 
    If Node.js is in your PATH (recommended):
+
    ```json
    "mcpServers": {
      "audiense-demand": {
@@ -139,57 +146,89 @@ Before configuring Claude Desktop, you need to set up the project:
    }
    ```
 
-   If Node.js is not in your PATH, you'll need to use the full path to node. To find it:
+   If you prefer to test de _SSE_ Server you need to start the server by running the following command `node build/index.js sse` and then configuring the clients this way:
 
-  - **MacOS:**
-   ```bash
-   # Find Node.js path
-   which node
-   # Example output: /opt/homebrew/bin/node
-   ```
+   For Cursor:
 
-  - **Windows:**
-   ```powershell
-   # Find Node.js path
-   where node
-   # Example output: C:\Program Files\nodejs\node.exe
-   ```
-
-   Then use the full path in your configuration:
    ```json
-   "mcpServers": {
-     "audiense-demand": {
-       "command": "/opt/homebrew/bin/node",  // MacOS example
-       // or "C:\\Program Files\\nodejs\\node.exe" for Windows
-       "args": [
-         "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
-       ],
-       "env": {}
+   {
+     "mcpServers": {
+       "audiense-demand": {
+         "url": "http://localhost:3001/sse"
+       }
      }
    }
    ```
 
+   For Claude Desktop (which still do not support SSE Servers):
+
+   ```json
+   {
+     "mcpServers": {
+       "audiense-demand": {
+         "command": "npx",
+         "args": ["-y", "mcp-remote", "http://localhost:3001/sse"]
+       }
+     }
+   }
+   ```
+
+   If Node.js is not in your PATH, you'll need to use the full path to node. To find it:
+
+- **MacOS:**
+
+```bash
+# Find Node.js path
+which node
+# Example output: /opt/homebrew/bin/node
+```
+
+- **Windows:**
+
+```powershell
+# Find Node.js path
+where node
+# Example output: C:\Program Files\nodejs\node.exe
+```
+
+Then use the full path in your configuration:
+
+```json
+"mcpServers": {
+  "audiense-demand": {
+    "command": "/opt/homebrew/bin/node",  // MacOS example
+    // or "C:\\Program Files\\nodejs\\node.exe" for Windows
+    "args": [
+      "/ABSOLUTE/PATH/TO/YOUR/build/index.js"
+    ],
+    "env": {}
+  }
+}
+```
+
 3. Replace `/ABSOLUTE/PATH/TO/YOUR/build/index.js` with the actual path to your index.js file:
 
-  - **MacOS:**
-   ```bash
-   # Navigate to your project directory
-   cd /path/to/mcp-audiense-demand
+- **MacOS:**
 
-   # Get the absolute path to index.js
-   echo "$(pwd)/build/index.js"
-   ```
+```bash
+# Navigate to your project directory
+cd /path/to/mcp-audiense-demand
 
-  - **Windows:**
-   ```powershell
-   # Navigate to your project directory
-   cd C:\path\to\mcp-audiense-demand
+# Get the absolute path to index.js
+echo "$(pwd)/build/index.js"
+```
 
-   # Get the absolute path to index.js
-   $pwd.Path + "\build\index.js"
-   ```
+- **Windows:**
 
-   Copy the output path and use it in your configuration.
+```powershell
+# Navigate to your project directory
+cd C:\path\to\mcp-audiense-demand
+
+# Get the absolute path to index.js
+$pwd.Path + "\build\index.js"
+```
+
+Copy the output path and use it in your configuration.
 
 4. Save the file and restart Claude Desktop.
 
@@ -207,18 +246,22 @@ The server uses the Device Authorization Flow for authentication, which provides
 6. You can continue using the MCP.
 
 This flow is more secure because:
+
 - No need to handle or store credentials directly
 - Tokens are managed automatically
 - The authentication process happens in your browser
 - The user code expires after 15 minutes for security
 
 #### Token Management
+
 - Access tokens are automatically refreshed when needed
 - No manual token management required
 - Secure token storage handled by the server
 
 #### Troubleshooting Authentication
+
 If you encounter authentication issues:
+
 1. Ensure you've completed the authentication process in your browser
 2. Try the operation again after a few seconds
 3. If issues persist, restart the authentication flow by trying the operation again
@@ -226,15 +269,18 @@ If you encounter authentication issues:
 ## 🛠️ Troubleshooting
 
 ### Tools Not Appearing in Claude
+
 1. Check Claude Desktop logs:
 
 ```
 tail -f ~/Library/Logs/Claude/mcp*.log
 ```
+
 2. Verify environment variables are set correctly.
 3. Ensure the absolute path to index.js is correct.
 
 ### Authentication Issues
+
 - Double-check OAuth credentials.
 - Ensure the access and refresh token is still valid.
 - Verify that the required API scopes are enabled.
@@ -244,11 +290,13 @@ tail -f ~/Library/Logs/Claude/mcp*.log
 To check server logs:
 
 ### For MacOS/Linux:
+
 ```
 tail -n 20 -f ~/Library/Logs/Claude/mcp*.log
 ```
 
 ### For Windows:
+
 ```
 Get-Content -Path "$env:AppData\Claude\Logs\mcp*.log" -Wait -Tail 20
 ```
@@ -256,22 +304,27 @@ Get-Content -Path "$env:AppData\Claude\Logs\mcp*.log" -Wait -Tail 20
 ## ❗ Common Issues
 
 ### "command not found: node"
+
 - **Solution**: Make sure Node.js is properly installed and added to your PATH
 - **Check**: Run `node --version` to verify the installation
 
 ### "Error: Cannot find module"
+
 - **Solution**: Make sure you've built the project and the path to index.js is correct
 - **Check**: Verify the build directory exists and contains index.js
 
 ### "EACCES: permission denied"
+
 - **Solution**: Check file permissions or run with elevated privileges
 - **Check**: Ensure you have read/write permissions in the project directory
 
 ### "Invalid configuration"
+
 - **Solution**: Verify your claude_desktop_config.json syntax
 - **Check**: Make sure all paths use correct separators for your OS (/ for MacOS/Linux, \\ for Windows)
 
 ### Authentication Loop
+
 - **Solution**: Clear any cached tokens and restart the authentication process
 - **Check**: Verify your Audiense Demand account has the correct permissions
 
