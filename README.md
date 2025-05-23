@@ -1,6 +1,10 @@
 # 🏆 Audiense Demand MCP Server
 [![smithery badge](https://smithery.ai/badge/@AudienseCo/mcp-audiense-demand)](https://smithery.ai/server/@AudienseCo/mcp-audiense-demand)
 
+> 🚨 **Deprecation Notice**
+> This repository is no longer actively maintained, and the code may not work as expected.
+> We recommend using the [New Audiense Demand MCP Server](https://github.com/AudienseCo/mcp-server-audiense-demand) directly for any integrations.
+
 This server, based on the [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol), allows **Claude** or any other MCP-compatible client to interact with your [Audiense Demand](https://www.audiense.com/products/demand-intelligence) account. It provides tools to create and analyze demand reports, track entity performance, and gain insights across different channels and countries.
 
 This MCP server is designed to work with the Audiense Demand API and requires an Audiense account authorized to use Audiense Demand.
