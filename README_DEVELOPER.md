@@ -1,5 +1,9 @@
 # 🏆 Audiense Demand MCP Server: Developer Guide
 
+> 🚨 **Deprecation Notice**
+> This repository is no longer actively maintained, and the code may not work as expected.
+> We recommend using the [New Audiense Demand MCP Server](https://github.com/AudienseCo/mcp-server-audiense-demand) directly for any integrations.
+
 Welcome to the technical documentation for the Audiense Demand MCP Server. This guide is designed for developers, system administrators, and technical users who want to:
 
 - Understand the technical architecture

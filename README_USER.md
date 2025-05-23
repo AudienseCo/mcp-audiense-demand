@@ -1,5 +1,10 @@
 # 🏆 Audiense Demand MCP Server: User Guide
 
+> 🚨 **Deprecation Notice**
+> This repository is no longer actively maintained, and the code may not work as expected.
+> We recommend using the [New Audiense Demand MCP Server](https://github.com/AudienseCo/mcp-server-audiense-demand) directly for any integrations.
+
+
 Welcome to the Audiense Demand User Guide! This guide is designed for business users and non-developers who want to get started quickly with Audiense Demand through Claude or any other MCP-compatible client. We've simplified the technical aspects and focused on what you need to know to:
 
 - Get up and running quickly
